@@ -17,10 +17,10 @@ def main() -> None:
 
     import omni
     import omni.replicator.core as rep
-    from pxr import Usd, UsdGeom, UsdLux, Gf
+    from pxr import Usd, UsdGeom, UsdLux, Gf, Vt
 
     usd_path = "/ros2_ws/assets/ur10e_robotiq2f-140/ur10e_robotiq2f-140-topic_based.usd"
-    output_dir = "/ros2_ws/output/topic_based_pickplace1"
+    output_dir = "/ros2_ws/output/topic_based_pickplace2"
     os.makedirs(output_dir, exist_ok=True)
 
     # Open stage
@@ -63,6 +63,13 @@ def main() -> None:
     cyl_xform = UsdGeom.Xformable(cyl.GetPrim())
     # Place near robot workspace (adjust as needed)
     cyl_xform.AddTranslateOp().Set(Gf.Vec3d(0.6, 0.0, 0.06))
+    # Make cylinder highly visible (red)
+    try:
+        UsdGeom.Gprim(cyl.GetPrim()).GetDisplayColorAttr().Set(
+            Vt.Vec3fArray([Gf.Vec3f(0.9, 0.1, 0.1)])
+        )
+    except Exception:
+        pass
 
     # Render product & BasicWriter (frame sequence)
     render_product = rep.create.render_product(cam_path, (1920, 1080))
@@ -114,10 +121,10 @@ def main() -> None:
     # Phase timings
     total_frames = 300
     open_frames = 40
-    pre_attach_frames = 60
-    carry_frames = 120
-    place_frames = 60
-    return_frames = 20
+    pre_attach_frames = 50
+    carry_frames = 100
+    place_frames = 50
+    return_frames = 40
 
     # Targets
     place_target = Gf.Vec3d(0.4, 0.3, 0.06)
@@ -137,9 +144,9 @@ def main() -> None:
         rep.orchestrator.step()
         sim_app.update()
 
-    # Open gripper
+    # Open gripper (wider amplitude for visibility)
     for f in range(open_frames):
-        set_gripper(0.015)
+        set_gripper(0.04)
         rep.orchestrator.step()
         sim_app.update()
 
@@ -162,7 +169,7 @@ def main() -> None:
         sim_app.update()
 
     # Close gripper to 'attach'
-    for f in range(20):
+    for f in range(25):
         set_gripper(0.002)
         rep.orchestrator.step()
         sim_app.update()
@@ -177,20 +184,29 @@ def main() -> None:
         rep.orchestrator.step()
         sim_app.update()
 
-    # Move to place target over place_frames
+    # Move to place target over place_frames (ensure a visible lift arc)
     # If eef available, ignore; otherwise lerp cylinder directly
     cur_pos = UsdGeom.XformCommonAPI(cyl.GetPrim()).GetTranslateAttr().Get()
     cur_vec = Gf.Vec3d(cur_pos[0], cur_pos[1], cur_pos[2])
     for f in range(place_frames):
         alpha = (f + 1) / place_frames
-        new = cur_vec * (1.0 - alpha) + place_target * alpha
+        mid_z = max(cur_vec[2], place_target[2]) + 0.20
+        # simple parabolic arc on z
+        z_arc = (1 - (2 * alpha - 1) ** 2) * (mid_z - min(cur_vec[2], place_target[2])) + min(
+            cur_vec[2], place_target[2]
+        )
+        new = Gf.Vec3d(
+            cur_vec[0] * (1.0 - alpha) + place_target[0] * alpha,
+            cur_vec[1] * (1.0 - alpha) + place_target[1] * alpha,
+            z_arc,
+        )
         UsdGeom.XformCommonAPI(cyl.GetPrim()).SetTranslate(new)
         rep.orchestrator.step()
         sim_app.update()
 
     # Open gripper to 'release'
-    for f in range(20):
-        set_gripper(0.015)
+    for f in range(25):
+        set_gripper(0.04)
         rep.orchestrator.step()
         sim_app.update()
 
@@ -199,7 +215,15 @@ def main() -> None:
     pos_vec = Gf.Vec3d(pos[0], pos[1], pos[2])
     for f in range(return_frames):
         alpha = (f + 1) / return_frames
-        new = pos_vec * (1.0 - alpha) + start_pos * alpha
+        mid_z = max(pos_vec[2], start_pos[2]) + 0.20
+        z_arc = (1 - (2 * alpha - 1) ** 2) * (mid_z - min(pos_vec[2], start_pos[2])) + min(
+            pos_vec[2], start_pos[2]
+        )
+        new = Gf.Vec3d(
+            pos_vec[0] * (1.0 - alpha) + start_pos[0] * alpha,
+            pos_vec[1] * (1.0 - alpha) + start_pos[1] * alpha,
+            z_arc,
+        )
         UsdGeom.XformCommonAPI(cyl.GetPrim()).SetTranslate(new)
         rep.orchestrator.step()
         sim_app.update()
