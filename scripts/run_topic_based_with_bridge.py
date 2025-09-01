@@ -61,8 +61,9 @@ def main() -> None:
     # This script is intended to be run in background inside the container.
     start = time.time()
     while time.time() - start < 600:
-        # Sleep in small increments to allow clean shutdown on container stop
-        time.sleep(0.5)
+        # Keep Kit updating so timeline and bridge process while allowing clean shutdown
+        app.update()
+        time.sleep(0.01)
 
     timeline.stop()
     sim_app.close()
