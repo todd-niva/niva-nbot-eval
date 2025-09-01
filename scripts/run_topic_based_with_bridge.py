@@ -14,17 +14,11 @@ def main() -> None:
     import carb
     from pxr import Usd
 
-    # Enable ROS 2 bridge extension
+    # Enable ROS 2 bridge extension(s)
     app = omni.kit.app.get_app()
     ext_mgr = app.get_extension_manager()
-    # Explicitly disable deprecated bridge to avoid missing dependency on 'isaacsim.ros2_bridge'
-    try:
-        if ext_mgr.is_extension_enabled("omni.isaac.ros2_bridge"):
-            ext_mgr.set_extension_enabled_immediate("omni.isaac.ros2_bridge", False)
-            carb.log_info("Disabled deprecated extension: omni.isaac.ros2_bridge")
-    except Exception:
-        pass
-    for ext_name in ("isaacsim.ros2.bridge",):
+    # Try both known IDs across versions so USD graphs resolve
+    for ext_name in ("isaacsim.ros2.bridge", "omni.isaac.ros2_bridge"):
         try:
             if not ext_mgr.is_extension_enabled(ext_name):
                 ext_mgr.set_extension_enabled_immediate(ext_name, True)
@@ -41,8 +35,8 @@ def main() -> None:
     except Exception:
         pass
 
-    # Give extensions time to initialize (up to ~20s)
-    for _ in range(1000):
+    # Give extensions time to initialize (up to ~25s)
+    for _ in range(1250):
         app.update()
         time.sleep(0.02)
 
