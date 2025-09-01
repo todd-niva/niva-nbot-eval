@@ -48,15 +48,10 @@ def main() -> None:
     cam.AddTranslateOp().Set(Gf.Vec3d(2.6, 1.4, 2.1))
     cam.AddRotateXYZOp().Set(Gf.Vec3f(-38.0, 0.0, -32.0))
 
-    # Render product & VideoWriter (mp4)
+    # Render product & BasicWriter (frame sequence)
     render_product = rep.create.render_product(cam_path, (1920, 1080))
-    writer = rep.WriterRegistry.get("VideoWriter")
-    writer.initialize(
-        output_dir=output_dir,
-        filename="topic_based_demo.mp4",
-        # H.264 by default; fallback to raw if codec missing
-        # You can add encoder args here if needed
-    )
+    writer = rep.WriterRegistry.get("BasicWriter")
+    writer.initialize(output_dir=output_dir, rgb=True)
     writer.attach([render_product])
 
     # Let sim warm up a little
