@@ -40,13 +40,20 @@ def main() -> None:
     key = UsdLux.DistantLight.Define(stage, "/World/VideoKeyLight")
     key.CreateIntensityAttr(6000)
 
-    # Camera with wide framing to capture full robot
+    # Camera with wider FOV and pulled-back framing to capture full robot
     cam_path = "/World/VideoCamera"
     cam = UsdGeom.Camera.Define(stage, cam_path)
     cam.CreateClippingRangeAttr(Gf.Vec2f(0.01, 200.0))
-    # Pull back and angle for full view (adjusted wider than screenshot script)
-    cam.AddTranslateOp().Set(Gf.Vec3d(2.6, 1.4, 2.1))
-    cam.AddRotateXYZOp().Set(Gf.Vec3f(-38.0, 0.0, -32.0))
+    # Use full-frame aperture and a short focal length for a much wider view
+    try:
+        cam.CreateHorizontalApertureAttr(36.0)
+        cam.CreateVerticalApertureAttr(24.0)
+        cam.CreateFocalLengthAttr(18.0)
+    except Exception:
+        pass
+    # Pull back and raise camera; angle down and yaw to frame whole scene
+    cam.AddTranslateOp().Set(Gf.Vec3d(4.0, 2.0, 2.6))
+    cam.AddRotateXYZOp().Set(Gf.Vec3f(-35.0, 0.0, -28.0))
 
     # Render product & BasicWriter (frame sequence)
     render_product = rep.create.render_product(cam_path, (1920, 1080))
