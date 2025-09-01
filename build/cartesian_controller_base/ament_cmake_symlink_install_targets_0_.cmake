@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/cartesian_controller_base/libcartesian_controller_base.so" "/ros2_ws/build/cartesian_controller_base/libik_solvers.so" "TARGETS" "cartesian_controller_base" "ik_solvers" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/cartesian_controller_handles/libcartesian_controller_handles.so" "TARGETS" "cartesian_controller_handles" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

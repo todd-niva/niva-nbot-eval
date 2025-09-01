@@ -1,0 +1,15 @@
+/ros2_ws/install/ur_robotiq_description/share/ament_index/resource_index/package_run_dependencies/ur_robotiq_description
+/ros2_ws/install/ur_robotiq_description/share/ament_index/resource_index/parent_prefix_path/ur_robotiq_description
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/ament_prefix_path.sh
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/ament_prefix_path.dsv
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/path.sh
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/path.dsv
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.bash
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.sh
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.zsh
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.dsv
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.dsv
+/ros2_ws/install/ur_robotiq_description/share/ament_index/resource_index/packages/ur_robotiq_description
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/cmake/ur_robotiq_descriptionConfig.cmake
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/cmake/ur_robotiq_descriptionConfig-version.cmake
+/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.xml

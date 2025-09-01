@@ -1,0 +1,4 @@
+source;share/servo_keyboard/local_setup.bash
+source;share/servo_keyboard/local_setup.dsv
+source;share/servo_keyboard/local_setup.sh
+source;share/servo_keyboard/local_setup.zsh

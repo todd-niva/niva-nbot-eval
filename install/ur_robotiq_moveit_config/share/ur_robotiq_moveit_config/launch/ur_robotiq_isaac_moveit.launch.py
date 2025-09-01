@@ -1,0 +1,1 @@
+/ros2_ws/src/ur_robotiq_moveit_config/launch/ur_robotiq_isaac_moveit.launch.py

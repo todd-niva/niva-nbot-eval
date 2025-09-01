@@ -1,0 +1,1 @@
+/ros2_ws/build/cartesian_controller_utilities/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,5 @@
+[console_scripts]
+kb_servo = ur_robotiq_servo.kb_control:main
+ps5_servo = ur_robotiq_servo.ps5_control:main
+xbox_control = ur_robotiq_servo.xbox_control:main
+

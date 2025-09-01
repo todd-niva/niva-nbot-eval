@@ -1,0 +1,1 @@
+/ros2_ws/build/cartesian_controller_base/ament_cmake_core/cartesian_controller_baseConfig-version.cmake

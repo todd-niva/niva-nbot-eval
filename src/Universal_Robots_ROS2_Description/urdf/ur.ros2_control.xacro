@@ -137,7 +137,8 @@
         <state_interface name="effort"/>
       </joint>
 
-      <xacro:unless value="${sim_gazebo or sim_ignition}">
+      <!-- Only define extended sensors/GPIO when using full hardware backend; skip for fake hardware and sim_isaac -->
+      <xacro:unless value="${sim_gazebo or sim_ignition or use_fake_hardware or sim_isaac}">
         <sensor name="${tf_prefix}tcp_fts_sensor">
           <state_interface name="force.x"/>
           <state_interface name="force.y"/>

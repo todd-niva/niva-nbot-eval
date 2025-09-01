@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/build/cartesian_motion_controller/libcartesian_motion_controller.so" "TARGETS" "cartesian_motion_controller" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

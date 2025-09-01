@@ -1,0 +1,20 @@
+{
+  "package_name": "ur_dashboard_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsInRemoteControl.srv",
+    "/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
+  ]
+}
