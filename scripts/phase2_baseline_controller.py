@@ -96,8 +96,8 @@ class BaselineController:
                 log("❌ Robot articulation not available")
                 return False
             
-            # Get joint names and positions
-            self.joint_names = self.robot_articulation.get_joint_names()
+            # Get joint names and positions (Isaac Sim 4.5 API)
+            self.joint_names = self.robot_articulation.dof_names
             self.current_joints = self.robot_articulation.get_joint_positions()
             
             if self.joint_names is None or self.current_joints is None:
@@ -704,11 +704,13 @@ def main() -> None:
         # Initialize robot
         robot_path = "/World/UR10e_Robotiq_2F_140"
         robot_articulation = SingleArticulation(robot_path)
-        robot_articulation.initialize()  # Initialize the articulation directly
         
         world.reset()
         for _ in range(60):
             world.step(render=False)
+            
+        # Initialize articulation after world reset
+        robot_articulation.initialize()
 
         log("✅ Robot environment ready")
 
