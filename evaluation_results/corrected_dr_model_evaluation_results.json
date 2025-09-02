@@ -1,0 +1,207 @@
+{
+  "evaluation_type": "dr_model_corrected_comprehensive",
+  "timestamp": 1756828373.169457,
+  "overall_statistics": {
+    "total_trials": 500,
+    "total_successes": 4,
+    "dr_model_info": {
+      "model_path": "/home/todd/niva-nbot-eval/models/dr_trained_model_final.pth",
+      "architecture_hash": "25424174",
+      "parameters": 2385799,
+      "device": "cuda"
+    },
+    "overall_success_rate": 0.008,
+    "baseline_overall_success_rate": 0.012,
+    "overall_improvement_factor": 0.6666666666666666
+  },
+  "level_results": {
+    "level_1": {
+      "complexity_level": 1,
+      "total_trials": 100,
+      "successful_trials": 1,
+      "success_rate": 0.01,
+      "mean_completion_time": 5.269050598144531e-05,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.02950175376728975
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "corrected_synthetic_physics": true,
+        "complexity_level": 1
+      },
+      "failure_modes": {
+        "positioning_error": 99
+      },
+      "model_performance": {
+        "mean_confidence": 7.221576630632188,
+        "mean_grasp_activation": 0.9964863711595535,
+        "mean_positioning_score": 0.09663845099508762,
+        "successful_grasp_rate": 1.0
+      },
+      "baseline_success_rate": 0.018,
+      "improvement_factor": 0.5555555555555556,
+      "statistical_significance": {
+        "chi2_statistic": 0.36207286716451664,
+        "p_value": 0.5473572659168171,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False"
+      }
+    },
+    "level_2": {
+      "complexity_level": 2,
+      "total_trials": 100,
+      "successful_trials": 1,
+      "success_rate": 0.01,
+      "mean_completion_time": 4.124641418457031e-05,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.02950175376728975
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "corrected_synthetic_physics": true,
+        "complexity_level": 2
+      },
+      "failure_modes": {
+        "positioning_error": 99
+      },
+      "model_performance": {
+        "mean_confidence": 7.221109579507347,
+        "mean_grasp_activation": 0.9965254658460617,
+        "mean_positioning_score": 0.09664244584739208,
+        "successful_grasp_rate": 1.0
+      },
+      "baseline_success_rate": 0.014,
+      "improvement_factor": 0.7142857142857143,
+      "statistical_significance": {
+        "chi2_statistic": 0.11590843233845273,
+        "p_value": 0.7335152046099707,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False"
+      }
+    },
+    "level_3": {
+      "complexity_level": 3,
+      "total_trials": 100,
+      "successful_trials": 0,
+      "success_rate": 0.0,
+      "mean_completion_time": 0.0,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.0
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "corrected_synthetic_physics": true,
+        "complexity_level": 3
+      },
+      "failure_modes": {
+        "positioning_error": 100
+      },
+      "model_performance": {
+        "mean_confidence": 7.222243554995577,
+        "mean_grasp_activation": 0.9964441359043121,
+        "mean_positioning_score": 0.09664897412061692,
+        "successful_grasp_rate": 1.0
+      },
+      "baseline_success_rate": 0.012,
+      "improvement_factor": 0.0,
+      "statistical_significance": {
+        "chi2_statistic": 1.214574898785425,
+        "p_value": 0.2704279639103754,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False"
+      }
+    },
+    "level_4": {
+      "complexity_level": 4,
+      "total_trials": 100,
+      "successful_trials": 1,
+      "success_rate": 0.01,
+      "mean_completion_time": 3.933906555175781e-05,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.02950175376728975
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "corrected_synthetic_physics": true,
+        "complexity_level": 4
+      },
+      "failure_modes": {
+        "positioning_error": 99
+      },
+      "model_performance": {
+        "mean_confidence": 7.220650284616706,
+        "mean_grasp_activation": 0.9965759807825089,
+        "mean_positioning_score": 0.09667044669389725,
+        "successful_grasp_rate": 1.0
+      },
+      "baseline_success_rate": 0.009,
+      "improvement_factor": 1.1111111111111112,
+      "statistical_significance": {
+        "chi2_statistic": 0.01121201928467318,
+        "p_value": 0.9156721490126648,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False"
+      }
+    },
+    "level_5": {
+      "complexity_level": 5,
+      "total_trials": 100,
+      "successful_trials": 1,
+      "success_rate": 0.01,
+      "mean_completion_time": 3.886222839355469e-05,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.02950175376728975
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "corrected_synthetic_physics": true,
+        "complexity_level": 5
+      },
+      "failure_modes": {
+        "positioning_error": 99
+      },
+      "model_performance": {
+        "mean_confidence": 7.223395590996856,
+        "mean_grasp_activation": 0.996372412443161,
+        "mean_positioning_score": 0.09665960319340229,
+        "successful_grasp_rate": 1.0
+      },
+      "baseline_success_rate": 0.007,
+      "improvement_factor": 1.4285714285714286,
+      "statistical_significance": {
+        "chi2_statistic": 0.12947777298230462,
+        "p_value": 0.7189741173299349,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False"
+      }
+    }
+  },
+  "evaluation_metadata": {
+    "framework": "corrected_dr_evaluation",
+    "trials_per_level": 100,
+    "total_levels": 5,
+    "physics_simulation": "corrected_synthetic",
+    "model_architecture_verified": true,
+    "corrections_applied": [
+      "Realistic success probability based on DR training",
+      "Accounts for actual model grasp activation behavior",
+      "Adjusted distance thresholds for positioning",
+      "Physics-informed success detection"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "approach_name": "domain_randomization",
+  "architecture_hash": "25424174",
+  "dr_config": {
+    "base_config": "FairComparisonConfig(hidden_dim=256, num_attention_heads=4, num_transformer_layers=2, vision_backbone='efficient_cnn', dropout=0.1, image_size=(192, 192), max_sequence_length=15, batch_size=4, effective_batch_size=16, num_epochs=8, learning_rate=0.0002, weight_decay=0.0001, lr_schedule='cosine', use_gradient_accumulation=True, use_mixed_precision=True, use_pinned_memory=True, use_async_transfer=True, immediate_cleanup=True, disable_mixed_precision=False, disable_gradient_accumulation=False, use_full_model_size=False, use_full_sequence_length=False, use_full_image_resolution=False, log_optimization_impact=True, save_ablation_results=True, track_memory_usage=True, dataset_path='/mnt/niva_hot/datasets/berkeley_autolab_ur5/0.1.0', max_files_train=None, max_files_val=20, output_dir='/home/todd/niva-nbot-eval/fair_comparison_training', model_save_dir='/home/todd/niva-nbot-eval/models')",
+    "num_randomization_levels": 5,
+    "episodes_per_level": 1500,
+    "scene_variations_per_level": 10,
+    "friction_range": [
+      0.1,
+      1.5
+    ],
+    "mass_range": [
+      0.8,
+      1.2
+    ],
+    "damping_range": [
+      0.005,
+      0.02
+    ],
+    "lighting_range": [
+      0.3,
+      2.0
+    ],
+    "camera_noise_std": 0.01,
+    "curriculum_learning": true,
+    "difficulty_progression": "linear",
+    "use_real_physics": false,
+    "physics_steps_per_action": 10,
+    "simulation_dt": 0.016666666666666666,
+    "checkpoint_frequency": 500,
+    "evaluation_frequency": 1000
+  },
+  "level_performance": {},
+  "curriculum_progress": [
+    {
+      "avg_loss": 0.028420961359841748,
+      "epoch_time": 166.51113605499268,
+      "num_batches": 1875,
+      "learning_rate": 0.0002,
+      "level_1_loss": 0.0062835553259945115,
+      "level_2_loss": 0.007704015506419688,
+      "level_3_loss": 0.007372331105780804,
+      "level_4_loss": 0.007012130471073318,
+      "level_5_loss": 0.007320770158306307,
+      "epoch": 1,
+      "approach": "domain_randomization"
+    },
+    {
+      "avg_loss": 0.005377875345339999,
+      "epoch_time": 169.82408046722412,
+      "num_batches": 1875,
+      "learning_rate": 0.0001923879532511287,
+      "level_1_loss": 0.0012905116258105336,
+      "level_2_loss": 0.0013331431679766068,
+      "level_3_loss": 0.0013751164853565518,
+      "level_4_loss": 0.001376335992276811,
+      "level_5_loss": 0.001407868476351723,
+      "epoch": 2,
+      "approach": "domain_randomization"
+    },
+    {
+      "avg_loss": 0.003916018393966564,
+      "epoch_time": 165.5729169845581,
+      "num_batches": 1875,
+      "learning_rate": 0.00017071067811865476,
+      "level_1_loss": 0.0009463728040188684,
+      "level_2_loss": 0.0009686913781151636,
+      "level_3_loss": 0.0009759167998744338,
+      "level_4_loss": 0.0009897197255112759,
+      "level_5_loss": 0.0010355539920759232,
+      "epoch": 3,
+      "approach": "domain_randomization"
+    },
+    {
+      "avg_loss": 0.0031712186167511393,
+      "epoch_time": 171.16799116134644,
+      "num_batches": 1875,
+      "learning_rate": 0.000138268343236509,
+      "level_1_loss": 0.000767603521194194,
+      "level_2_loss": 0.000770390833043,
+      "level_3_loss": 0.0007744453288258804,
+      "level_4_loss": 0.0008357760063963225,
+      "level_5_loss": 0.0008433311178766114,
+      "epoch": 4,
+      "approach": "domain_randomization"
+    },
+    {
+      "avg_loss": 0.0028086747501355905,
+      "epoch_time": 165.44044041633606,
+      "num_batches": 1875,
+      "learning_rate": 0.0001,
+      "level_1_loss": 0.0006614176137769875,
+      "level_2_loss": 0.0006873303629041768,
+      "level_3_loss": 0.0007153759192335092,
+      "level_4_loss": 0.0007289094470360057,
+      "level_5_loss": 0.000758216893086986,
+      "epoch": 5,
+      "approach": "domain_randomization"
+    },
+    {
+      "avg_loss": 0.0025911932277992793,
+      "epoch_time": 169.97915387153625,
+      "num_batches": 1875,
+      "learning_rate": 6.173165676349103e-05,
+      "level_1_loss": 0.0006084328447898522,
+      "level_2_loss": 0.0006202553111000793,
+      "level_3_loss": 0.000643728545338331,
+      "level_4_loss": 0.0006860155813955838,
+      "level_5_loss": 0.0007233744820065719,
+      "epoch": 6,
+      "approach": "domain_randomization"
+    },
+    {
+      "avg_loss": 0.0024381760599382686,
+      "epoch_time": 170.43476390838623,
+      "num_batches": 1875,
+      "learning_rate": 2.9289321881345254e-05,
+      "level_1_loss": 0.0005895005287137123,
+      "level_2_loss": 0.0005733702281823297,
+      "level_3_loss": 0.0005941524469638085,
+      "level_4_loss": 0.0006447123958208468,
+      "level_5_loss": 0.0006773723715596134,
+      "epoch": 7,
+      "approach": "domain_randomization"
+    },
+    {
+      "avg_loss": 0.0024561106848666288,
+      "epoch_time": 168.96093082427979,
+      "num_batches": 1875,
+      "learning_rate": 7.612046748871327e-06,
+      "level_1_loss": 0.0005779283030006404,
+      "level_2_loss": 0.0006132207660498058,
+      "level_3_loss": 0.0006079469829120467,
+      "level_4_loss": 0.0006250748165948146,
+      "level_5_loss": 0.000663013319967528,
+      "epoch": 8,
+      "approach": "domain_randomization"
+    }
+  ],
+  "physics_randomization_log": []
+}

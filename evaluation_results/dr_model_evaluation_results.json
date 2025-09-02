@@ -1,0 +1,234 @@
+{
+  "evaluation_type": "dr_model_synthetic_comprehensive",
+  "timestamp": 1756827911.3155015,
+  "overall_statistics": {
+    "total_trials": 500,
+    "total_successes": 0,
+    "dr_model_info": {
+      "model_path": "/home/todd/niva-nbot-eval/models/dr_trained_model_final.pth",
+      "architecture_hash": "25424174",
+      "parameters": 2385799,
+      "device": "cuda"
+    },
+    "overall_success_rate": 0.0,
+    "baseline_overall_success_rate": 0.012,
+    "overall_improvement_factor": 0.0,
+    "baseline_rates_by_level": [
+      0.018,
+      0.014,
+      0.012,
+      0.009,
+      0.007
+    ],
+    "overall_statistical_test": {
+      "chi2_statistic": 6.0728744939271255,
+      "p_value": 0.01372733823471528,
+      "significant_at_0_05": "True",
+      "significant_at_0_01": "False"
+    }
+  },
+  "level_results": {
+    "level_1": {
+      "complexity_level": 1,
+      "total_trials": 100,
+      "successful_trials": 0,
+      "success_rate": 0.0,
+      "mean_completion_time": 0.0,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.0
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "synthetic_physics": true,
+        "complexity_level": 1
+      },
+      "failure_modes": {
+        "positioning_error": 100
+      },
+      "model_performance": {
+        "mean_confidence": 7.221485324704754,
+        "std_confidence": 0.002493448348712327,
+        "mean_consistency": 0.9988338655311569,
+        "std_consistency": 0.00016635476144840887,
+        "min_confidence": 7.214796573324086,
+        "max_confidence": 7.227596597982865
+      },
+      "baseline_success_rate": 0.018,
+      "improvement_factor": 0.0,
+      "statistical_significance": {
+        "chi2_statistic": 1.8329938900203664,
+        "p_value": 0.1757743310668648,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False",
+        "baseline_trials": 100,
+        "baseline_successes": 1
+      }
+    },
+    "level_2": {
+      "complexity_level": 2,
+      "total_trials": 100,
+      "successful_trials": 0,
+      "success_rate": 0.0,
+      "mean_completion_time": 0.0,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.0
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "synthetic_physics": true,
+        "complexity_level": 2
+      },
+      "failure_modes": {
+        "positioning_error": 100
+      },
+      "model_performance": {
+        "mean_confidence": 7.221132907542353,
+        "std_confidence": 0.0024259897208349884,
+        "mean_consistency": 0.9988005857067697,
+        "std_consistency": 0.00016883970109988697,
+        "min_confidence": 7.2140582258478965,
+        "max_confidence": 7.228528473848082
+      },
+      "baseline_success_rate": 0.014,
+      "improvement_factor": 0.0,
+      "statistical_significance": {
+        "chi2_statistic": 1.419878296146045,
+        "p_value": 0.23342343596697257,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False",
+        "baseline_trials": 100,
+        "baseline_successes": 1
+      }
+    },
+    "level_3": {
+      "complexity_level": 3,
+      "total_trials": 100,
+      "successful_trials": 0,
+      "success_rate": 0.0,
+      "mean_completion_time": 0.0,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.0
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "synthetic_physics": true,
+        "complexity_level": 3
+      },
+      "failure_modes": {
+        "positioning_error": 100
+      },
+      "model_performance": {
+        "mean_confidence": 7.222193649977111,
+        "std_confidence": 0.0025235185663346903,
+        "mean_consistency": 0.9988770741883445,
+        "std_consistency": 0.0001669344955894562,
+        "min_confidence": 7.214586377089765,
+        "max_confidence": 7.2281742237187485
+      },
+      "baseline_success_rate": 0.012,
+      "improvement_factor": 0.0,
+      "statistical_significance": {
+        "chi2_statistic": 1.214574898785425,
+        "p_value": 0.2704279639103754,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False",
+        "baseline_trials": 100,
+        "baseline_successes": 1
+      }
+    },
+    "level_4": {
+      "complexity_level": 4,
+      "total_trials": 100,
+      "successful_trials": 0,
+      "success_rate": 0.0,
+      "mean_completion_time": 0.0,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.0
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "synthetic_physics": true,
+        "complexity_level": 4
+      },
+      "failure_modes": {
+        "positioning_error": 100
+      },
+      "model_performance": {
+        "mean_confidence": 7.220735418235016,
+        "std_confidence": 0.0023957841736327204,
+        "mean_consistency": 0.9987531327615806,
+        "std_consistency": 0.00017916657039589818,
+        "min_confidence": 7.215886532477118,
+        "max_confidence": 7.228471635774471
+      },
+      "baseline_success_rate": 0.009,
+      "improvement_factor": 0.0,
+      "statistical_significance": {
+        "chi2_statistic": 0.9081735620585267,
+        "p_value": 0.34059949130462885,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False",
+        "baseline_trials": 100,
+        "baseline_successes": 0
+      }
+    },
+    "level_5": {
+      "complexity_level": 5,
+      "total_trials": 100,
+      "successful_trials": 0,
+      "success_rate": 0.0,
+      "mean_completion_time": 0.0,
+      "std_completion_time": 0.0,
+      "confidence_interval_95": [
+        0,
+        0.0
+      ],
+      "physics_validation": {
+        "total_physics_steps": 1000,
+        "mean_physics_steps": 10.0,
+        "synthetic_physics": true,
+        "complexity_level": 5
+      },
+      "failure_modes": {
+        "positioning_error": 100
+      },
+      "model_performance": {
+        "mean_confidence": 7.223412509047903,
+        "std_confidence": 0.0023181877782819348,
+        "mean_consistency": 0.9989512973656461,
+        "std_consistency": 0.00015339543370525936,
+        "min_confidence": 7.215613429943062,
+        "max_confidence": 7.228478643159897
+      },
+      "baseline_success_rate": 0.007,
+      "improvement_factor": 0.0,
+      "statistical_significance": {
+        "chi2_statistic": 0.7049345417925479,
+        "p_value": 0.4011305676473621,
+        "significant_at_0_05": "False",
+        "significant_at_0_01": "False",
+        "baseline_trials": 100,
+        "baseline_successes": 0
+      }
+    }
+  },
+  "evaluation_metadata": {
+    "framework": "synthetic_dr_evaluation",
+    "trials_per_level": 100,
+    "total_levels": 5,
+    "physics_simulation": "synthetic",
+    "model_architecture_verified": true
+  }
+}

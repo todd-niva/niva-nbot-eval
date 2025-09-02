@@ -1,0 +1,44 @@
+{
+  "berkeley_analysis": {
+    "dataset_path": "/mnt/niva_hot/datasets/berkeley_autolab_ur5/0.1.0",
+    "total_files": 412,
+    "total_size_gb": 68.4606156758964,
+    "estimated_episodes": 988.8,
+    "scale_vs_dr": 0.13183999999999998,
+    "recommendation": "PROMISING",
+    "reasons": [
+      "Moderate scale: 989 episodes",
+      "Real robot data should outperform synthetic",
+      "Worth detailed quality analysis"
+    ]
+  },
+  "berkeley_vs_dr_comparison": {
+    "data_source": {
+      "berkeley": "Real robot demonstrations with human expertise",
+      "dr_training": "Procedural synthetic episodes"
+    },
+    "physics_realism": {
+      "berkeley": "Real-world physics constraints and dynamics",
+      "dr_training": "Simplified synthetic physics simulation"
+    },
+    "action_patterns": {
+      "berkeley": "Authentic robot movements from successful tasks",
+      "dr_training": "Generated patterns optimized for loss, not task success"
+    },
+    "task_diversity": {
+      "berkeley": "Natural language instructions with varied scenarios",
+      "dr_training": "5 complexity levels with artificial variations"
+    },
+    "success_validation": {
+      "berkeley": "Demonstrated successful task completion",
+      "dr_training": "Assumed success based on procedural generation"
+    }
+  },
+  "timestamp": "January 2, 2025",
+  "next_steps": [
+    "Train model on Berkeley dataset using identical architecture to DR",
+    "Evaluate Berkeley-trained model using same framework",
+    "Compare: Berkeley vs DR vs Baseline performance",
+    "If Berkeley succeeds, expand to full 11.5TB dataset collection"
+  ]
+}
