@@ -14,10 +14,6 @@ Key Principles:
 2. Failure modes reflect real perception/planning/execution challenges
 3. All assumptions backed by literature or empirical data
 4. Statistical rigor for investor due diligence by robotics experts
-
-
-GPU Acceleration: This script has been optimized for GPU physics acceleration.
-Expected performance improvement: 3-10x faster than CPU-only physics.
 """
 
 import os

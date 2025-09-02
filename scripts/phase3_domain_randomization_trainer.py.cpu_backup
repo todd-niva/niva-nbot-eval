@@ -17,10 +17,6 @@ Key Scientific Principles:
 Author: Training Validation Team
 Date: 2025-09-02
 Phase: 3 - Domain Randomization Training
-
-
-GPU Acceleration: This script has been optimized for GPU physics acceleration.
-Expected performance improvement: 3-10x faster than CPU-only physics.
 """
 
 import os

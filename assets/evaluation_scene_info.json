@@ -1,0 +1,69 @@
+{
+  "scene_file": "/ros2_ws/assets/evaluation_scene.usd",
+  "created_timestamp": "2025-09-02T05:38:53",
+  "description": "Portable evaluation scene for cross-platform editing",
+  "complexity_levels": {
+    "level_1": {
+      "objects": [
+        "TargetCylinder"
+      ],
+      "description": "Basic validation - single cylinder"
+    },
+    "level_2": {
+      "objects": [
+        "TargetCylinder",
+        "DistractorCylinder"
+      ],
+      "description": "Pose variation - multiple cylinders"
+    },
+    "level_3": {
+      "objects": [
+        "TargetCylinder",
+        "Distractor1",
+        "Distractor2"
+      ],
+      "description": "Environmental challenges - varied objects"
+    },
+    "level_4": {
+      "objects": [
+        "TargetCylinder",
+        "Distractor1",
+        "Distractor2",
+        "Distractor3"
+      ],
+      "description": "Multi-object scenes - 4 objects"
+    },
+    "level_5": {
+      "objects": [
+        "TargetCylinder",
+        "SimilarDistractor1",
+        "SimilarDistractor2",
+        "DifferentDistractor1",
+        "DifferentDistractor2"
+      ],
+      "description": "Maximum complexity - 5 objects with similar distractors"
+    }
+  },
+  "editing_instructions": {
+    "windows_editing": [
+      "1. Copy scene file to Windows machine",
+      "2. Open in Isaac Sim GUI",
+      "3. Position camera for optimal view",
+      "4. Adjust lighting as needed",
+      "5. Save the scene",
+      "6. Copy back to Linux machine"
+    ],
+    "camera_positioning": [
+      "Position camera to capture full robot workspace",
+      "Ensure clear view of pick-and-place operations",
+      "Good lighting and contrast",
+      "Minimal occlusion"
+    ],
+    "lighting_adjustments": [
+      "Adjust main light intensity and direction",
+      "Add fill lights if needed",
+      "Ensure good contrast for object detection",
+      "Test lighting across all complexity levels"
+    ]
+  }
+}
