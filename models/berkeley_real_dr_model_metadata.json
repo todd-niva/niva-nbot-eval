@@ -1,0 +1,23 @@
+{
+  "training_type": "Berkeley_Real_DR",
+  "dataset_source": "Berkeley_UR5_actual_TFRecords",
+  "episodes_used": 100,
+  "samples_generated": 2500,
+  "domain_randomization": {
+    "noise_std_range": [
+      0.01,
+      0.05
+    ],
+    "action_scale_range": [
+      0.9,
+      1.1
+    ],
+    "state_scale_range": [
+      0.95,
+      1.05
+    ]
+  },
+  "model_architecture": "SimpleRobotStatePolicy_identical_to_Berkeley",
+  "training_completed": "20250902_232829",
+  "bulletproof_verified": true
+}
