@@ -1,0 +1,39 @@
+{
+  "campaign_metadata": {
+    "timestamp": "2025-09-02 14:20:01",
+    "campaign_type": "dr_model_evaluation",
+    "model_path": "/home/todd/niva-nbot-eval/models/dr_trained_policy_final.pth",
+    "framework_version": "dr_evaluation_v1.0",
+    "trials_per_level": 100,
+    "total_target_trials": 500
+  },
+  "level_results": {
+    "level_1": {
+      "complexity_level": 1,
+      "total_trials": 100,
+      "successes": 19,
+      "success_rate": 19.0,
+      "confidence_interval": {
+        "lower_bound": 11.310902263594253,
+        "upper_bound": 26.68909773640575
+      },
+      "execution_times": {
+        "mean": 0.0013242340087890624,
+        "std": 0.009647313214007407,
+        "median": 0.0003662109375
+      },
+      "physics_steps": {
+        "total": 40049,
+        "mean": 400.49
+      },
+      "failure_mode_distribution": {
+        "grasp_failure_trained": 31,
+        "success": 19,
+        "gripper_coordination_failure": 27,
+        "perception_error": 23
+      },
+      "individual_trials": [
+        {
+          "trial_number": 1,
+          "complexity_level": 1,
+          "success": 

@@ -140,8 +140,9 @@ class DomainRandomizer:
 class TrainingEnvironment:
     """Isaac Sim training environment with domain randomization"""
     
-    def __init__(self, config: TrainingConfig):
+    def __init__(self, config: TrainingConfig, device: str = 'cpu'):
         self.config = config
+        self.device = device
         self.randomizer = DomainRandomizer(config)
         self.current_complexity = 1
         self.episode_count = 0
@@ -214,8 +215,8 @@ class TrainingEnvironment:
         
         # Get action from policy
         with torch.no_grad():
-            obs_tensor = torch.FloatTensor(observations).unsqueeze(0)
-            action = policy(obs_tensor).squeeze(0).numpy()
+            obs_tensor = torch.FloatTensor(observations).unsqueeze(0).to(self.device)
+            action = policy(obs_tensor).squeeze(0).cpu().numpy()
         
         # Execute action and get reward (mock implementation)
         success = self.execute_action(action, scenario)
@@ -271,7 +272,7 @@ class DRTrainer:
         self.loss_fn = nn.MSELoss()
         
         # Initialize environment
-        self.env = TrainingEnvironment(config)
+        self.env = TrainingEnvironment(config, self.device)
         
         # Create output directories
         os.makedirs(config.model_save_dir, exist_ok=True)
