@@ -1,0 +1,37 @@
+{
+  "trial_metadata": {
+    "timestamp": "2025-09-02 13:23:54",
+    "framework_type": "authentic_isaac_sim_evaluation",
+    "trial_number": 1,
+    "evaluation_type": "baseline_zero_shot"
+  },
+  "execution_data": {
+    "success": false,
+    "completion_time": 1.067626953125,
+    "failure_mode": "grasp_failure_untrained",
+    "physics_steps_executed": 1350,
+    "target_position": [
+      0.55,
+      0.0,
+      0.06
+    ]
+  },
+  "technical_validation": {
+    "isaac_sim_used": true,
+    "real_physics_simulation": true,
+    "robot_articulation_available": true,
+    "gpu_acceleration": true,
+    "mocked_data": false
+  },
+  "scene_configuration": {
+    "complexity_level": 1,
+    "object_count": 1,
+    "target_object": "cylinder_12cm_height_3cm_radius",
+    "robot_model": "ur10e_robotiq_2f140",
+    "physics_properties": {
+      "gravity": -9.81,
+      "cylinder_mass": 0.5,
+      "simulation_frequency": 60
+    }
+  }
+}

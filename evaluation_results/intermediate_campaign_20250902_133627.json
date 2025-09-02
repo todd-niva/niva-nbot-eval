@@ -1,0 +1,106 @@
+{
+  "campaign_metadata": {
+    "timestamp": "2025-09-02 13:36:27",
+    "campaign_type": "10_trial_robust_validation_intermediate",
+    "trials_completed": 4,
+    "elapsed_time_minutes": 0.13707571427027385
+  },
+  "completed_trials": [
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:36:19",
+        "trial_number": 1,
+        "evaluation_type": "baseline_zero_shot_error"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.0,
+        "total_trial_time": 0.12486076354980469,
+        "failure_mode": "system_error",
+        "physics_steps_executed": 0,
+        "target_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "error_details": "Trial 1 failed with error: No module named 'omni.kit.usd'"
+      },
+      "technical_validation": {
+        "isaac_sim_used": false,
+        "error": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:36:21",
+        "trial_number": 2,
+        "evaluation_type": "baseline_zero_shot_error"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.0,
+        "total_trial_time": 0.029627561569213867,
+        "failure_mode": "system_error",
+        "physics_steps_executed": 0,
+        "target_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "error_details": "Trial 2 failed with error: No module named 'omni.kit.usd'"
+      },
+      "technical_validation": {
+        "isaac_sim_used": false,
+        "error": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:36:23",
+        "trial_number": 3,
+        "evaluation_type": "baseline_zero_shot_error"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.0,
+        "total_trial_time": 0.033223867416381836,
+        "failure_mode": "system_error",
+        "physics_steps_executed": 0,
+        "target_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "error_details": "Trial 3 failed with error: No module named 'omni.kit.usd'"
+      },
+      "technical_validation": {
+        "isaac_sim_used": false,
+        "error": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:36:25",
+        "trial_number": 4,
+        "evaluation_type": "baseline_zero_shot_error"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.0,
+        "total_trial_time": 0.03370189666748047,
+        "failure_mode": "system_error",
+        "physics_steps_executed": 0,
+        "target_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "error_details": "Trial 4 failed with error: No module named 'omni.kit.usd'"
+      },
+      "technical_validation": {
+        "isaac_sim_used": false,
+        "error": true
+      }
+    }
+  ]
+}

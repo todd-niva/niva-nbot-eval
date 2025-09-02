@@ -1,0 +1,304 @@
+{
+  "campaign_metadata": {
+    "timestamp": "2025-09-02 13:43:09",
+    "campaign_type": "single_session_10_trial_baseline_validation",
+    "framework_version": "single_session_authentic_isaac_sim_v1.0",
+    "total_duration_minutes": 0.5073523879051208,
+    "approach": "single_isaac_sim_session_for_efficiency"
+  },
+  "individual_trials": [
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:42:55",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 1,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.07937002182006836,
+        "total_trial_time": 1.958519458770752,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.51,
+          0.0,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:42:57",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 2,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.07988572120666504,
+        "total_trial_time": 1.5376982688903809,
+        "failure_mode": "approach_trajectory_error",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.52,
+          0.02,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:42:58",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 3,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.08495950698852539,
+        "total_trial_time": 1.4963536262512207,
+        "failure_mode": "positioning_error",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.53,
+          -0.02,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:43:00",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 4,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.07889342308044434,
+        "total_trial_time": 1.5200228691101074,
+        "failure_mode": "positioning_error",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.54,
+          0.0,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:43:01",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 5,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.08065390586853027,
+        "total_trial_time": 1.5252649784088135,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.55,
+          0.02,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:43:03",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 6,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.07820844650268555,
+        "total_trial_time": 1.4656245708465576,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.56,
+          -0.02,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:43:04",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 7,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.07969450950622559,
+        "total_trial_time": 1.5204241275787354,
+        "failure_mode": "positioning_error",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.5700000000000001,
+          0.0,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:43:06",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 8,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.07428503036499023,
+        "total_trial_time": 1.4671823978424072,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.5800000000000001,
+          0.02,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:43:07",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 9,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.07531452178955078,
+        "total_trial_time": 1.486708402633667,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.5900000000000001,
+          -0.02,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:43:09",
+        "framework_type": "single_session_authentic_isaac_sim",
+        "trial_number": 10,
+        "evaluation_type": "baseline_zero_shot_single_session"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.0717155933380127,
+        "total_trial_time": 1.4624547958374023,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 180,
+        "target_position": [
+          0.6000000000000001,
+          0.0,
+          0.06
+        ]
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "single_session": true
+      }
+    }
+  ],
+  "campaign_analysis": {
+    "total_trials": 10,
+    "successful_trials": 10,
+    "error_trials": 0,
+    "success_count": 0,
+    "success_rate": 0.0,
+    "success_rate_percentage": 0.0,
+    "mean_execution_time": 0.07829806804656983,
+    "total_physics_steps": 1800,
+    "failure_modes": {
+      "grasp_failure_untrained": 3,
+      "approach_trajectory_error": 1,
+      "positioning_error": 3,
+      "gripper_coordination_failure": 3
+    },
+    "confidence_interval_95": {
+      "lower": 0,
+      "upper": 27.75401687666165,
+      "center": 0.0
+    },
+    "within_expected_range": true,
+    "literature_validation": "PASSED"
+  }
+}
