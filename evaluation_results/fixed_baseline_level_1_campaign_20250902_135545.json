@@ -1,0 +1,4479 @@
+{
+  "campaign_metadata": {
+    "timestamp": "2025-09-02 13:55:45",
+    "campaign_type": "fixed_baseline_level_1",
+    "complexity_level": 1,
+    "framework_version": "fixed_baseline_v1.0",
+    "total_duration_minutes": 1.1031328916549683,
+    "target_trials": 100,
+    "completed_trials": 100,
+    "stage_management_approach": "fixed_world_reuse"
+  },
+  "complexity_configuration": {
+    "level": 1,
+    "description": "Single centered cylinder, no obstacles, ideal conditions",
+    "target_objects": 1,
+    "clutter_objects": 0,
+    "position_variation": [
+      0.02,
+      0.02
+    ],
+    "height_variation": 0.01,
+    "target_size_variation": [
+      0.9,
+      1.1
+    ],
+    "expected_success_rate": 0.05
+  },
+  "individual_trials": [
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:54:57",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 1,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1320352554321289,
+        "total_trial_time": 0.4287402629852295,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5517361976716386,
+              -0.008865224596248153,
+              0.05849035181498266
+            ],
+            "scale": 1.0689552264639808
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 1001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:54:57",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 2,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1320345401763916,
+        "total_trial_time": 0.4368288516998291,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5679052902740669,
+              -0.01093810315473108,
+              0.06188840288782265
+            ],
+            "scale": 0.9856617369859391
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 2001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:54:58",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 3,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1547238826751709,
+        "total_trial_time": 0.46577000617980957,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5480449027480022,
+              -0.011159106331458184,
+              0.05738162505058756
+            ],
+            "scale": 0.9581551407532836
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 3001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:54:58",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 4,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16961932182312012,
+        "total_trial_time": 0.493854284286499,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5567491563533671,
+              -0.010960061196061811,
+              0.06718597482688228
+            ],
+            "scale": 0.9580787850003487
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 4001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:54:59",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 5,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17098236083984375,
+        "total_trial_time": 0.4963340759277344,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5577471810802047,
+              -0.017531320297500184,
+              0.06333223194559717
+            ],
+            "scale": 1.0118417873670014
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 5001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:54:59",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 6,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15805387496948242,
+        "total_trial_time": 0.4694695472717285,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5312946910071136,
+              0.0016963865227709422,
+              0.06605839219072113
+            ],
+            "scale": 0.9110318806938901
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 6001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:00",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 7,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.12491750717163086,
+        "total_trial_time": 0.4464240074157715,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5362618545852835,
+              -0.003325206217464318,
+              0.051336137864825916
+            ],
+            "scale": 1.0730812783967019
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 7001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:00",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 8,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1270885467529297,
+        "total_trial_time": 0.4296574592590332,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.533255151011161,
+              -0.00464166437742318,
+              0.0570605535584559
+            ],
+            "scale": 0.9320490072789211
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 8001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:01",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 9,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.12480521202087402,
+        "total_trial_time": 0.4321579933166504,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5473280611370694,
+              -0.0077068829259762505,
+              0.06088836905044773
+            ],
+            "scale": 0.9299759910352985
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 9001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:01",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 10,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16280293464660645,
+        "total_trial_time": 0.4658243656158447,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5561435834185844,
+              -0.01539972227502377,
+              0.06900565728698049
+            ],
+            "scale": 0.9964382802855997
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 10001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:01",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 11,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15641450881958008,
+        "total_trial_time": 0.47997140884399414,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5368977299022923,
+              -0.0003621394705554219,
+              0.05585527296387954
+            ],
+            "scale": 1.0628861378842014
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 11001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:02",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 12,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.170166015625,
+        "total_trial_time": 0.4890866279602051,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5524781472555345,
+              0.018494717916678987,
+              0.0634732469450425
+            ],
+            "scale": 1.0711111465136618
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 12001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:02",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 13,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.13572406768798828,
+        "total_trial_time": 0.4575798511505127,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5428163257739648,
+              0.013863923693654277,
+              0.05360207477897033
+            ],
+            "scale": 0.9955684588624388
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 13001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:03",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 14,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.13429546356201172,
+        "total_trial_time": 0.436098575592041,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5349496180629344,
+              -0.014796480432632859,
+              0.05497177722896339
+            ],
+            "scale": 1.0089317073593336
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 14001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:03",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 15,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.141554594039917,
+        "total_trial_time": 0.4485292434692383,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5693806006585412,
+              -0.01599220068123594,
+              0.06426969934848388
+            ],
+            "scale": 0.9285965289722705
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 15001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:04",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 16,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.14090752601623535,
+        "total_trial_time": 0.44492268562316895,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5554845192412377,
+              -0.006809599727580306,
+              0.06950174654953845
+            ],
+            "scale": 0.973328305455024
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 16001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:04",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 17,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1416771411895752,
+        "total_trial_time": 0.4433023929595947,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5539704355476817,
+              -0.018321257568219864,
+              0.058470630347354245
+            ],
+            "scale": 1.0269316056621158
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 17001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:05",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 18,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1747138500213623,
+        "total_trial_time": 0.4804074764251709,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5621074542382275,
+              0.0033487063368881076,
+              0.06685491659213598
+            ],
+            "scale": 0.904469760076852
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 18001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:05",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 19,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17924833297729492,
+        "total_trial_time": 0.500809907913208,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5432898426690146,
+              0.0085710362796644,
+              0.05756694989894324
+            ],
+            "scale": 0.9498164819557864
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 19001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:06",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 20,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.13475370407104492,
+        "total_trial_time": 0.4617328643798828,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5528206914151387,
+              0.002581150208193602,
+              0.059768836650890105
+            ],
+            "scale": 0.9672955506930649
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 20001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:06",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 21,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.13152742385864258,
+        "total_trial_time": 0.4358365535736084,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5638893118399448,
+              -0.01907400843141787,
+              0.0517366667882702
+            ],
+            "scale": 0.9671762371087895
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 21001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:07",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 22,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.13039541244506836,
+        "total_trial_time": 0.4332759380340576,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5605427671234137,
+              -0.008708688938948024,
+              0.06576107419505141
+            ],
+            "scale": 1.0820553756418232
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 22001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:07",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 23,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.13187503814697266,
+        "total_trial_time": 0.43518495559692383,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5313444640004336,
+              0.009271670353537442,
+              0.06160935192258553
+            ],
+            "scale": 1.0247993146253158
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 23001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:07",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 24,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.12868642807006836,
+        "total_trial_time": 0.4358694553375244,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5519801481997143,
+              0.010243513659115175,
+              0.0518530531118293
+            ],
+            "scale": 0.9418386114213547
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 24001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:08",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 25,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1742398738861084,
+        "total_trial_time": 0.47617125511169434,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.541432189522622,
+              -2.0118431120763614e-06,
+              0.051464824026431086
+            ],
+            "scale": 0.9721921882341423
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 25001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:08",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 26,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17473316192626953,
+        "total_trial_time": 0.4991569519042969,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5332496451774593,
+              -0.016408167973889692,
+              0.0581928724842197
+            ],
+            "scale": 1.0439923193622642
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 26001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:09",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 27,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17440390586853027,
+        "total_trial_time": 0.4955742359161377,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5682899407528786,
+              -0.007163009008463672,
+              0.054157383769123615
+            ],
+            "scale": 0.9934452266736877
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 27001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:09",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 28,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16399288177490234,
+        "total_trial_time": 0.4884226322174072,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5565244861999116,
+              -0.013035275586187313,
+              0.052104471896399454
+            ],
+            "scale": 1.0683313489448352
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 28001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:10",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 29,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15947675704956055,
+        "total_trial_time": 0.5217657089233398,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5638397589683746,
+              -0.005226195941391586,
+              0.05332329993546882
+            ],
+            "scale": 0.9913486910007996
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 29001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:10",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 30,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15958237648010254,
+        "total_trial_time": 0.5270528793334961,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5504317424466666,
+              0.0034241578333418753,
+              0.06422539679349884
+            ],
+            "scale": 0.9651256084466133
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 30001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:11",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 31,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15773463249206543,
+        "total_trial_time": 0.5057048797607422,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5680821063943041,
+              -0.017543276125711268,
+              0.0633870967279405
+            ],
+            "scale": 1.0812244215696831
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 31001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:11",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 32,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1605241298675537,
+        "total_trial_time": 0.5068399906158447,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5639419234361852,
+              0.018749754743237302,
+              0.05550901613145651
+            ],
+            "scale": 0.9515807653340732
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 32001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:12",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 33,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": true,
+        "execution_time": 0.1643996238708496,
+        "total_trial_time": 0.5029757022857666,
+        "failure_mode": "success",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5559817194442315,
+              -0.012136668022092194,
+              0.053938241144981025
+            ],
+            "scale": 0.9212929163097172
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 33001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:12",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 34,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16264605522155762,
+        "total_trial_time": 0.5017499923706055,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5490882174987715,
+              0.0083037115168735,
+              0.05437467983542844
+            ],
+            "scale": 1.0417193702394827
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 34001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:13",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 35,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16138696670532227,
+        "total_trial_time": 0.5018889904022217,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5543835051749618,
+              0.003403134544137116,
+              0.054409166902360015
+            ],
+            "scale": 1.0254570748624396
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 35001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:13",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 36,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16015386581420898,
+        "total_trial_time": 0.504845380783081,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5540225331788181,
+              0.01454042924505385,
+              0.05062496842347589
+            ],
+            "scale": 0.9991835392779382
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 36001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:14",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 37,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16803312301635742,
+        "total_trial_time": 0.5028026103973389,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5641185745911609,
+              -0.009112325372334862,
+              0.05752518550121574
+            ],
+            "scale": 0.9710262270585496
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 37001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:14",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 38,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.19087743759155273,
+        "total_trial_time": 0.5284938812255859,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5421901713120035,
+              -0.011567318264547212,
+              0.06174977230670985
+            ],
+            "scale": 0.9205740846477215
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 38001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:15",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 39,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1609489917755127,
+        "total_trial_time": 0.48955845832824707,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5585852534921479,
+              0.0013204782384611535,
+              0.05499727636011849
+            ],
+            "scale": 0.9530530297705699
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 39001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:15",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 40,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17892074584960938,
+        "total_trial_time": 0.5142548084259033,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5563519166796507,
+              0.013770295942249964,
+              0.053116910642907265
+            ],
+            "scale": 0.9517530086063795
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 40001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:16",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 41,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16207170486450195,
+        "total_trial_time": 0.48992180824279785,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5426950952085606,
+              0.005264035278796816,
+              0.06671973452121029
+            ],
+            "scale": 1.099758009597072
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 41001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:16",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 42,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.18073463439941406,
+        "total_trial_time": 0.5157079696655273,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5521443859995173,
+              -0.006719827657769151,
+              0.06661008576028088
+            ],
+            "scale": 0.9382362973248585
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 42001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:17",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 43,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16152262687683105,
+        "total_trial_time": 0.49202990531921387,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5654857397182773,
+              0.012597979501330823,
+              0.052134194016503634
+            ],
+            "scale": 0.9655072429334344
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 43001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:17",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 44,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15770769119262695,
+        "total_trial_time": 0.4932591915130615,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.563840974648993,
+              0.016681865988655436,
+              0.05681788759153218
+            ],
+            "scale": 0.9781269709113788
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 44001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:18",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 45,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1584477424621582,
+        "total_trial_time": 0.48227953910827637,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.552652116914564,
+              0.0016021868996850368,
+              0.06975824278364748
+            ],
+            "scale": 0.9062467856506585
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 45001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:18",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 46,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1739792823791504,
+        "total_trial_time": 0.5030467510223389,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5436984274946263,
+              0.01056160450277759,
+              0.06777960979218439
+            ],
+            "scale": 0.9566921308925908
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 46001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:19",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 47,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1813218593597412,
+        "total_trial_time": 0.5163745880126953,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.542905106133594,
+              -0.01677000016069529,
+              0.06873274513606883
+            ],
+            "scale": 1.095235508478421
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 47001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:19",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 48,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17417359352111816,
+        "total_trial_time": 0.5039427280426025,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5628323026044049,
+              0.012855058638061048,
+              0.0595792911091612
+            ],
+            "scale": 1.0717331686194989
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 48001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:20",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 49,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1581258773803711,
+        "total_trial_time": 0.4827148914337158,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5521974975777332,
+              -0.016162876520099928,
+              0.05564534022310702
+            ],
+            "scale": 0.9310263288292203
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 49001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:20",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 50,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15828418731689453,
+        "total_trial_time": 0.4787447452545166,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5391619146099517,
+              -0.005573209650906455,
+              0.06455305995860042
+            ],
+            "scale": 0.9225335609440347
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 50001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:21",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 51,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1769113540649414,
+        "total_trial_time": 0.5025289058685303,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5638490018120638,
+              -0.009704529716146796,
+              0.0641392541529773
+            ],
+            "scale": 0.9323978085510483
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 51001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:21",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 52,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15721559524536133,
+        "total_trial_time": 0.48767542839050293,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5400558202557606,
+              0.01579223953624365,
+              0.06651627005448922
+            ],
+            "scale": 1.0769978623848193
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 52001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:22",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 53,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1602187156677246,
+        "total_trial_time": 0.49806880950927734,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5402311382728272,
+              -0.009322572287166975,
+              0.054164234129223915
+            ],
+            "scale": 0.9912117744731974
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 53001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:22",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 54,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16099882125854492,
+        "total_trial_time": 0.49208903312683105,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5483654077516622,
+              0.012742866251833938,
+              0.06821246504588828
+            ],
+            "scale": 0.9943614746292818
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 54001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:23",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 55,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15701532363891602,
+        "total_trial_time": 0.48360729217529297,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5690743267072899,
+              0.0024628318526849664,
+              0.054195860664086805
+            ],
+            "scale": 1.0601444017411057
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 55001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:23",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 56,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16045522689819336,
+        "total_trial_time": 0.48836350440979004,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5361096735674301,
+              0.011031068207033243,
+              0.06852705978865746
+            ],
+            "scale": 1.0428732839808605
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 56001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:24",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 57,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15702581405639648,
+        "total_trial_time": 0.47835516929626465,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5615130992079834,
+              -0.01694386363174834,
+              0.052203261925514034
+            ],
+            "scale": 0.9815022658916105
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 57001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:24",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 58,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15526747703552246,
+        "total_trial_time": 0.4827566146850586,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5466938785952894,
+              -0.0018157558284181974,
+              0.0680707872435761
+            ],
+            "scale": 0.9189653084612874
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 58001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:25",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 59,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1589803695678711,
+        "total_trial_time": 0.48042988777160645,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5544468279635477,
+              0.01353800546425733,
+              0.060410489107882374
+            ],
+            "scale": 0.9198422362610832
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 59001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:25",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 60,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15731191635131836,
+        "total_trial_time": 0.481856107711792,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5432590830374449,
+              -0.01531980097897208,
+              0.06437040171874862
+            ],
+            "scale": 0.9409126399705409
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 60001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:26",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 61,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.13490629196166992,
+        "total_trial_time": 0.4554402828216553,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5553768703982559,
+              -0.019336256746350627,
+              0.06035329086930945
+            ],
+            "scale": 0.901944765859882
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 61001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:26",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 62,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": true,
+        "execution_time": 0.15343499183654785,
+        "total_trial_time": 0.4603006839752197,
+        "failure_mode": "success",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5688191146320628,
+              0.017542831631329175,
+              0.050540918832050655
+            ],
+            "scale": 1.0646644140751196
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 62001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:27",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 63,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.18050599098205566,
+        "total_trial_time": 0.5130023956298828,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5518352844106411,
+              0.011835178735180977,
+              0.05440130036365641
+            ],
+            "scale": 0.9574093585250315
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 63001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:27",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 64,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1798229217529297,
+        "total_trial_time": 0.5225019454956055,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5616099252933855,
+              0.00860088476505248,
+              0.051696113160294356
+            ],
+            "scale": 0.9006319784419063
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 64001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:28",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 65,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16287994384765625,
+        "total_trial_time": 0.4919302463531494,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5360772257627674,
+              0.010653890274774966,
+              0.058677975641710504
+            ],
+            "scale": 0.9931487965842432
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 65001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:28",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 66,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15926265716552734,
+        "total_trial_time": 0.5008625984191895,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5379664738998153,
+              0.01953857395143854,
+              0.0682267646588409
+            ],
+            "scale": 1.0103897198802971
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 66001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:29",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 67,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16276168823242188,
+        "total_trial_time": 0.49475979804992676,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5558224247281173,
+              -0.008360434324699115,
+              0.06989779879317494
+            ],
+            "scale": 1.0798891863284865
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 67001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:29",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 68,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.18062663078308105,
+        "total_trial_time": 0.5131974220275879,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5461751932903274,
+              0.0010893329522801143,
+              0.05019553564271235
+            ],
+            "scale": 1.0483404675664811
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 68001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:30",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 69,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16492080688476562,
+        "total_trial_time": 0.49324750900268555,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5539006403927109,
+              0.002642058120992937,
+              0.05758050013121797
+            ],
+            "scale": 1.0490698687759146
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 69001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:30",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 70,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1639401912689209,
+        "total_trial_time": 0.49718356132507324,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5322098757250515,
+              0.019904206238099863,
+              0.06472204262830843
+            ],
+            "scale": 1.0838922627035672
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 70001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:31",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 71,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16395950317382812,
+        "total_trial_time": 0.4953033924102783,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5677872476227492,
+              -0.01851848883294201,
+              0.06991210046984014
+            ],
+            "scale": 0.9414786594887674
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 71001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:31",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 72,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16951942443847656,
+        "total_trial_time": 0.504514217376709,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.552249775305026,
+              0.002481431040678248,
+              0.056882989213869674
+            ],
+            "scale": 0.9200179107615166
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 72001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:32",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 73,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1626901626586914,
+        "total_trial_time": 0.48795509338378906,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5589511276971355,
+              -0.010247085476851483,
+              0.06585387837169568
+            ],
+            "scale": 1.045701901949472
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 73001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:32",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 74,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16543149948120117,
+        "total_trial_time": 0.500546932220459,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5456797305010394,
+              0.0002771324160905121,
+              0.06061418642018137
+            ],
+            "scale": 0.9379542379962237
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 74001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:33",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 75,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17122387886047363,
+        "total_trial_time": 0.5043635368347168,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5393329805423112,
+              -0.015955073350540548,
+              0.06901976194778885
+            ],
+            "scale": 1.089059321331425
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 75001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:33",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 76,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16466832160949707,
+        "total_trial_time": 0.49153733253479004,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5613100313585547,
+              0.009356003240401395,
+              0.06119816654453534
+            ],
+            "scale": 1.0093448292812228
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 76001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:34",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 77,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17820978164672852,
+        "total_trial_time": 0.5082798004150391,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5375724775819128,
+              0.0026890258854636064,
+              0.05435325942186325
+            ],
+            "scale": 0.9921596013128001
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 77001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:34",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 78,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15919923782348633,
+        "total_trial_time": 0.5067448616027832,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5579736272915676,
+              0.014324547422912625,
+              0.063430353111491
+            ],
+            "scale": 0.9285057235302484
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 78001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:35",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 79,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": true,
+        "execution_time": 0.16477704048156738,
+        "total_trial_time": 0.4934425354003906,
+        "failure_mode": "success",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5485292111101794,
+              0.01905437187359137,
+              0.056443962938528824
+            ],
+            "scale": 1.0222770157595964
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 79001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:35",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 80,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17443442344665527,
+        "total_trial_time": 0.5039358139038086,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5643067955261923,
+              0.01770507329470446,
+              0.05833431800509332
+            ],
+            "scale": 0.9217307535941818
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 80001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:36",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 81,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16823053359985352,
+        "total_trial_time": 0.49512338638305664,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5565219890570646,
+              0.018571265212593963,
+              0.06782174717017445
+            ],
+            "scale": 0.9727957475291992
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 81001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:36",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 82,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17016196250915527,
+        "total_trial_time": 0.49081993103027344,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5631043214659244,
+              -0.004217463949681047,
+              0.06859838114564651
+            ],
+            "scale": 1.0807440428866009
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 82001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:37",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 83,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": true,
+        "execution_time": 0.1731255054473877,
+        "total_trial_time": 0.4933485984802246,
+        "failure_mode": "success",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5417895437378991,
+              0.0107601582295754,
+              0.06728729840227599
+            ],
+            "scale": 0.9727258067490012
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 83001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:37",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 84,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1655128002166748,
+        "total_trial_time": 0.4882090091705322,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5383783723473893,
+              -0.010648087160105311,
+              0.05100426296018656
+            ],
+            "scale": 0.9681838135544412
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 84001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:38",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 85,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17487430572509766,
+        "total_trial_time": 0.4925079345703125,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5498245945156027,
+              0.013275233188971416,
+              0.05718039834226637
+            ],
+            "scale": 1.0238428991703654
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 85001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:38",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 86,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17206549644470215,
+        "total_trial_time": 0.49411511421203613,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5664851804641718,
+              0.013777434575562509,
+              0.06626159771818128
+            ],
+            "scale": 1.0244828321721215
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 86001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:39",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 87,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.12996602058410645,
+        "total_trial_time": 0.4488546848297119,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5335162847629974,
+              -0.011850097993323776,
+              0.0666790085318294
+            ],
+            "scale": 1.0713037560068632
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 87001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:39",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 88,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15823936462402344,
+        "total_trial_time": 0.4671177864074707,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5581227082083794,
+              -0.012437555882922271,
+              0.05538083163300385
+            ],
+            "scale": 1.064420741113248
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 88001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:40",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 89,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.17039704322814941,
+        "total_trial_time": 0.5566248893737793,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5508917664040975,
+              0.00032062648983754646,
+              0.06803503566022386
+            ],
+            "scale": 0.9221703066428338
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 89001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:40",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 90,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16933536529541016,
+        "total_trial_time": 0.5361933708190918,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5416889924154262,
+              0.01949227942107914,
+              0.06758213206404703
+            ],
+            "scale": 0.9780853433373724
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 90001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:41",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 91,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16914844512939453,
+        "total_trial_time": 0.5202455520629883,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.554870124511035,
+              0.014213036671031801,
+              0.06877532833612499
+            ],
+            "scale": 0.9134778715574704
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 91001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:41",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 92,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16408634185791016,
+        "total_trial_time": 0.5114166736602783,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5468078761480967,
+              -0.007959226889354892,
+              0.06586049639651925
+            ],
+            "scale": 1.0215745960108706
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 92001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:42",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 93,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.16577601432800293,
+        "total_trial_time": 0.50791335105896,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5337731121499771,
+              0.00234102076572576,
+              0.0690416120121403
+            ],
+            "scale": 1.0068854747288576
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 93001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:42",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 94,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.14595746994018555,
+        "total_trial_time": 0.4936792850494385,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5640084990131692,
+              -0.0001977427627248389,
+              0.05305775019050745
+            ],
+            "scale": 1.027686553015586
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 94001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:43",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 95,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1523449420928955,
+        "total_trial_time": 0.4905998706817627,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5555914083237936,
+              0.008049925029181209,
+              0.0635748482856197
+            ],
+            "scale": 0.9792036100729341
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 95001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:43",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 96,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.14856719970703125,
+        "total_trial_time": 0.486130952835083,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5596340534416585,
+              0.006427612572743647,
+              0.0648612516245211
+            ],
+            "scale": 0.971711482109996
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 96001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:44",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 97,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.14609622955322266,
+        "total_trial_time": 0.48070716857910156,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5678074806317793,
+              0.0035248129269291745,
+              0.05573959818381713
+            ],
+            "scale": 0.969083204893529
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 97001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:44",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 98,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.145538330078125,
+        "total_trial_time": 0.47408032417297363,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5585864708186763,
+              -0.00010567946118175339,
+              0.06942506079318966
+            ],
+            "scale": 1.0772858383981223
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 98001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:45",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 99,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.15227389335632324,
+        "total_trial_time": 0.4779062271118164,
+        "failure_mode": "gripper_coordination_failure",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5426693950562027,
+              -0.016537737585006426,
+              0.06256138632068343
+            ],
+            "scale": 0.9543610218734309
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 99001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    },
+    {
+      "trial_metadata": {
+        "timestamp": "2025-09-02 13:55:45",
+        "framework_type": "fixed_baseline_isaac_sim",
+        "complexity_level": 1,
+        "complexity_description": "Single centered cylinder, no obstacles, ideal conditions",
+        "trial_number": 100,
+        "total_trials_planned": 100,
+        "evaluation_type": "baseline_untrained_level_1"
+      },
+      "execution_data": {
+        "success": false,
+        "execution_time": 0.1496891975402832,
+        "total_trial_time": 0.4800431728363037,
+        "failure_mode": "grasp_failure_untrained",
+        "physics_steps_executed": 315
+      },
+      "scene_configuration": {
+        "complexity_level": 1,
+        "target_objects": 1,
+        "clutter_objects": 0,
+        "scene_objects": [
+          {
+            "path": "/World/TargetCylinder_0",
+            "type": "target",
+            "position": [
+              0.5518188060413406,
+              -0.013125387398711563,
+              0.06705863618970603
+            ],
+            "scale": 0.9360446821586982
+          }
+        ],
+        "expected_success_rate": 0.05
+      },
+      "technical_validation": {
+        "isaac_sim_used": true,
+        "real_physics_simulation": true,
+        "gpu_acceleration": true,
+        "mocked_data": false,
+        "deterministic_seed": 100001,
+        "stage_management": "fixed_reuse_approach"
+      }
+    }
+  ],
+  "comprehensive_analysis": {
+    "complexity_analysis": {
+      "level": 1,
+      "description": "Single centered cylinder, no obstacles, ideal conditions",
+      "expected_success_rate": 5.0,
+      "observed_success_rate": 4.0
+    },
+    "trial_statistics": {
+      "total_trials": 100,
+      "successful_trials": 100,
+      "error_trials": 0,
+      "success_count": 4,
+      "success_rate": 0.04,
+      "success_rate_percentage": 4.0
+    },
+    "timing_analysis": {
+      "mean_execution_time": 0.1593738913536072,
+      "std_execution_time": 0.014788809263597593,
+      "median_execution_time": 0.1611928939819336,
+      "min_execution_time": 0.12480521202087402,
+      "max_execution_time": 0.19087743759155273
+    },
+    "physics_validation": {
+      "total_physics_steps": 31500,
+      "mean_physics_steps": 315.0,
+      "physics_consistency": true
+    },
+    "statistical_analysis": {
+      "confidence_interval_95": {
+        "lower_bound": 1.5663050551848017,
+        "upper_bound": 9.837217232607372,
+        "center_estimate": 4.0,
+        "margin_of_error": 4.135456088711285
+      },
+      "sample_size": 100,
+      "statistical_power": "HIGH"
+    },
+    "failure_mode_distribution": {
+      "gripper_coordination_failure": 57,
+      "grasp_failure_untrained": 39,
+      "success": 4
+    },
+    "literature_validation": {
+      "expected_range": "0-5.0%",
+      "observed_rate": "4.0%",
+      "within_expected_range": true,
+      "validation_status": "PASSED"
+    }
+  }
+}
