@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-09-02 16:21:55",
+  "configuration": {
+    "trials_per_model": 500,
+    "complexity_levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "device": "cuda"
+  },
+  "models": {
+    "baseline": {
+      "overall_success_rate": 0.014,
+      "total_trials": 500,
+      "complexity_breakdown": {
+        "1": {
+          "success_rate": 0.02,
+          "trials": 100
+        },
+        "2": {
+          "success_rate": 0.018,
+          "trials": 100
+        },
+        "3": {
+          "success_rate": 0.012,
+          "trials": 100
+        },
+        "4": {
+          "success_rate": 0.008,
+          "trials": 100
+        },
+        "5": {
+          "success_rate": 0.006,
+          "trials": 100
+        }
+      }
+    }
+  },
+  "comparative_analysis": {
+    "performance_ranking": [
+      {
+        "model": "berkeley",
+        "success_rate": 0.0
+      },
+      {
+        "model": "baseline",
+        "success_rate": 0.014
+      },
+      {
+        "model": "domain_randomization",
+        "success_rate": 0.008
+      }
+    ],
+    "relative_improvements": {
+      "berkeley_vs_baseline": "0.0x",
+      "berkeley_vs_dr": "0.0x",
+      "dr_vs_baseline": "0.6x"
+    },
+    "key_findings": [
+      "Berkeley model achieves 0.0% success rate",
+      "DR training achieved 0.8% success rate (confirmed failure)",
+      "Untrained baseline: 1.4% success rate",
+      "Berkeley improves 0.0x over baseline",
+      "Berkeley improves 0.0x over DR training"
+    ],
+    "methodology_validation": {
+      "authentic_data_advantage": false,
+      "training_effectiveness": false,
+      "dr_training_failure_confirmed": true
+    }
+  }
+}
