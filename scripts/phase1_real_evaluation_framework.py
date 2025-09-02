@@ -577,7 +577,7 @@ class RealEvaluationFramework:
     def _save_intermediate_results(self, results: Dict[str, Any]) -> None:
         """Save intermediate results during evaluation"""
         
-        output_dir = "/home/todd/ur10e_2f140_topic_based_ros2_control/output"
+        output_dir = "/home/todd/niva-nbot-eval/output"
         os.makedirs(output_dir, exist_ok=True)
         
         output_file = f"{output_dir}/real_evaluation_intermediate.json"
@@ -587,7 +587,7 @@ class RealEvaluationFramework:
     def _save_final_results(self, final_report: Dict[str, Any]) -> None:
         """Save final comprehensive results"""
         
-        output_dir = "/home/todd/ur10e_2f140_topic_based_ros2_control/output"
+        output_dir = "/home/todd/niva-nbot-eval/output"
         os.makedirs(output_dir, exist_ok=True)
         
         timestamp = time.strftime("%Y%m%d_%H%M%S")

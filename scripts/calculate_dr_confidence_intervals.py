@@ -49,11 +49,11 @@ def calculate_time_confidence_interval(times, confidence=0.99):
 
 def main():
     # Load DR results
-    with open('/home/todd/ur10e_2f140_topic_based_ros2_control/output/domain_randomization_evaluation_results.json', 'r') as f:
+    with open('/home/todd/niva-nbot-eval/output/domain_randomization_evaluation_results.json', 'r') as f:
         dr_data = json.load(f)
     
     # Load baseline results for comparison
-    with open('/home/todd/ur10e_2f140_topic_based_ros2_control/output/realistic_baseline_results.json', 'r') as f:
+    with open('/home/todd/niva-nbot-eval/output/realistic_baseline_results.json', 'r') as f:
         baseline_data = json.load(f)
     
     print("# DOMAIN RANDOMIZATION vs BASELINE: STATISTICAL COMPARISON")

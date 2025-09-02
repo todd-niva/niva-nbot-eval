@@ -152,7 +152,7 @@ def test_eval_camera():
             print(f"✅ Screenshot saved: {output_path}")
             
             # Copy to local machine
-            local_output = "/home/todd/ur10e_2f140_topic_based_ros2_control/eval_camera_screenshot.png"
+            local_output = "/home/todd/niva-nbot-eval/eval_camera_screenshot.png"
             import shutil
             shutil.copy2(output_path, local_output)
             print(f"✅ Screenshot copied to: {local_output}")
