@@ -1,0 +1,99 @@
+{
+  "training_completed": true,
+  "total_epochs": 10,
+  "best_combined_loss": 0.9846116927348906,
+  "final_losses": {
+    "generator": 0.7871106352124896,
+    "discriminator": 0.19054563852056625,
+    "policy": 0.006955419001834733,
+    "cycle": 0.03179972473945883
+  },
+  "training_time_seconds": 185.00796341896057,
+  "training_history": {
+    "epochs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "losses": {
+      "generator": [
+        1.676039625727941,
+        0.8862594375534664,
+        0.9673566364106678,
+        0.9409804334716191,
+        0.9174584699055505,
+        0.8709984218317365,
+        0.8559873241280752,
+        0.8690934715762971,
+        0.8091397427377247,
+        0.7871106352124896
+      ],
+      "discriminator": [
+        0.32351259272249916,
+        0.2317737378771343,
+        0.24568088163459112,
+        0.18721475996195325,
+        0.1848593478992818,
+        0.18377327880570812,
+        0.1777482850565797,
+        0.1865390357044008,
+        0.19465757403818387,
+        0.19054563852056625
+      ],
+      "policy": [
+        0.008221318287449696,
+        0.007726153174030875,
+        0.007617261940761218,
+        0.007555526319063372,
+        0.007435592852296337,
+        0.007363001719885875,
+        0.007265540926406781,
+        0.007162942321941493,
+        0.007049929949321917,
+        0.006955419001834733
+      ],
+      "cycle": [
+        0.11221101330149741,
+        0.05366399683176525,
+        0.04887656826112005,
+        0.044899425099766445,
+        0.03924728022326553,
+        0.03554900505003475,
+        0.03358828569097178,
+        0.03404076418115033,
+        0.03138142676343993,
+        0.03179972473945883
+      ]
+    }
+  },
+  "config": {
+    "berkeley_dr_model_path": "/home/todd/niva-nbot-eval/models/berkeley_real_dr_model_best.pth",
+    "dataset_path": "/mnt/niva_hot/datasets/berkeley_autolab_ur5/0.1.0",
+    "batch_size": 16,
+    "learning_rate_policy": 0.0001,
+    "learning_rate_gan": 0.0002,
+    "epochs": 10,
+    "max_episodes": 50,
+    "image_size": 128,
+    "lambda_cycle": 10.0,
+    "lambda_identity": 5.0,
+    "dr_noise_scale_state": 0.1,
+    "dr_noise_scale_action": 0.05,
+    "dr_value_scale_min": 0.8,
+    "dr_value_scale_max": 1.2,
+    "model_save_path": "/home/todd/niva-nbot-eval/models/dr_gan_model_best.pth",
+    "gan_save_path": "/home/todd/niva-nbot-eval/models/dr_gan_generator.pth",
+    "results_path": "/home/todd/niva-nbot-eval/dr_gan_training/"
+  },
+  "model_paths": {
+    "policy": "/home/todd/niva-nbot-eval/models/dr_gan_model_best.pth",
+    "generator": "/home/todd/niva-nbot-eval/models/dr_gan_generator.pth"
+  }
+}
