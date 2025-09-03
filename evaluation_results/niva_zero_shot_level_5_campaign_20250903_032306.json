@@ -1,0 +1,5840 @@
+{
+  "complexity_level": 5,
+  "total_trials": 100,
+  "successful_trials": 35,
+  "success_rate": 0.35,
+  "success_rate_percentage": 35.0,
+  "mean_completion_time": 0.0014530386243547713,
+  "std_completion_time": 3.1690451958632774e-05,
+  "confidence_interval_95": [
+    0.2636410465347802,
+    0.4474573957080203
+  ],
+  "campaign_duration": 0.2516977787017822,
+  "model_info": {
+    "type": "NIVA_Zero_Shot_Foundation_Model",
+    "architecture": "Universal_Sensor_Fusion_Physics_Engine",
+    "training_data": "Zero_Shot_No_Task_Specific_Training",
+    "platform": "NIVA_Physics_Platform",
+    "evaluation_mode": "foundation_model_capabilities",
+    "features": {
+      "universal_sensor_fusion": true,
+      "physics_validation_engine": true,
+      "world_model_prediction": true,
+      "planning_engine": true,
+      "multi_modal_reasoning": true
+    }
+  },
+  "trial_details": [
+    {
+      "trial_index": 0,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0015003681182861328,
+      "robot_state": [
+        -1.7458828687667847,
+        2.3281989097595215,
+        -1.8418036699295044,
+        2.6288764476776123,
+        -0.07277773320674896,
+        0.7017514705657959,
+        0.765907883644104,
+        0.51841801404953,
+        0.29680049419403076,
+        -1.2491151094436646,
+        -1.6770349740982056,
+        0.9537611603736877,
+        -0.23476311564445496,
+        -1.366760492324829,
+        1.5197480916976929
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.46219598369517,
+            -0.015410058567322305,
+            0.7124423115922738
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8980403852656169,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.919317"
+    },
+    {
+      "trial_index": 1,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014765262603759766,
+      "robot_state": [
+        0.9998666048049927,
+        -2.6953678131103516,
+        -0.18539126217365265,
+        2.153946876525879,
+        -2.0404882431030273,
+        -1.8070894479751587,
+        0.21788381040096283,
+        0.038908250629901886,
+        0.7203069925308228,
+        -0.22245168685913086,
+        -0.6380088925361633,
+        1.4894908666610718,
+        0.37972593307495117,
+        -0.253607839345932,
+        1.233868956565857
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4098707211889413,
+            0.21006468981978305,
+            0.7454830475959755
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8909099335853032,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.921915"
+    },
+    {
+      "trial_index": 2,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014569759368896484,
+      "robot_state": [
+        -2.0060460567474365,
+        2.710744619369507,
+        -2.1428558826446533,
+        1.5791149139404297,
+        2.1157033443450928,
+        -1.1161348819732666,
+        0.7231277227401733,
+        0.7282410860061646,
+        0.6746541857719421,
+        -1.6574773788452148,
+        0.1256697177886963,
+        0.7071771621704102,
+        0.29541438817977905,
+        -0.2629282474517822,
+        -0.6491106748580933
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5522234628704825,
+            -0.03706587292125685,
+            0.7778021542509441
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8824147860084208,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.924471"
+    },
+    {
+      "trial_index": 3,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014643669128417969,
+      "robot_state": [
+        -2.6779770851135254,
+        2.9728705883026123,
+        1.0167239904403687,
+        -0.3447004556655884,
+        -2.094184398651123,
+        2.018078327178955,
+        0.2058943212032318,
+        0.3076399862766266,
+        0.5069104433059692,
+        0.4775712192058563,
+        0.12755070626735687,
+        -0.6936503648757935,
+        -0.33922526240348816,
+        1.067103385925293,
+        -0.7618942260742188
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.39)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.927043"
+    },
+    {
+      "trial_index": 4,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014538764953613281,
+      "robot_state": [
+        1.4757946729660034,
+        1.0673867464065552,
+        -0.4197988510131836,
+        -1.4687299728393555,
+        -2.6969401836395264,
+        -2.618445873260498,
+        0.629782497882843,
+        0.49093541502952576,
+        0.6669745445251465,
+        1.6962132453918457,
+        1.9277398586273193,
+        0.698853611946106,
+        -1.1083546876907349,
+        -0.06466139853000641,
+        0.27965009212493896
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5960570313079414,
+            -0.17843278478716335,
+            0.7992751608249755
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8784389237381683,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.929636"
+    },
+    {
+      "trial_index": 5,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014624595642089844,
+      "robot_state": [
+        0.2811313271522522,
+        -0.4209737777709961,
+        2.031935691833496,
+        2.005676746368408,
+        2.8630988597869873,
+        2.036449909210205,
+        0.2719826400279999,
+        0.9855244159698486,
+        0.9471685290336609,
+        -0.39081257581710815,
+        1.2970201969146729,
+        1.8598519563674927,
+        -0.41070687770843506,
+        0.17040133476257324,
+        -0.027844687923789024
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4282111901926737,
+            -0.2648477163579122,
+            0.788559453428933
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8902075048953336,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.932248"
+    },
+    {
+      "trial_index": 6,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014574527740478516,
+      "robot_state": [
+        0.04340369626879692,
+        2.242359161376953,
+        0.8297799229621887,
+        0.05737830698490143,
+        -2.2896006107330322,
+        -1.7564129829406738,
+        0.655907154083252,
+        0.6012663841247559,
+        0.10409338772296906,
+        -0.9160753488540649,
+        -0.8910725712776184,
+        0.7166488766670227,
+        -1.77549409866333,
+        1.0738755464553833,
+        -0.7275875806808472
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.26)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.934733"
+    },
+    {
+      "trial_index": 7,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014693737030029297,
+      "robot_state": [
+        1.2947174310684204,
+        1.0006226301193237,
+        0.15140672028064728,
+        -2.3820674419403076,
+        2.2190101146698,
+        -1.4276026487350464,
+        0.35026153922080994,
+        0.8760157823562622,
+        0.4420833885669708,
+        0.4972217082977295,
+        -1.832726240158081,
+        1.8435543775558472,
+        0.23678526282310486,
+        0.6236721277236938,
+        0.31801554560661316
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.68)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.937305"
+    },
+    {
+      "trial_index": 8,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014710426330566406,
+      "robot_state": [
+        1.607149600982666,
+        -0.7201905250549316,
+        -0.2511446177959442,
+        -2.333191156387329,
+        -2.0056467056274414,
+        -0.4221040606498718,
+        0.12839287519454956,
+        0.4785744547843933,
+        0.22600208222866058,
+        -0.39728519320487976,
+        0.8111972808837891,
+        0.9758097529411316,
+        0.9034324288368225,
+        1.327593207359314,
+        1.061581015586853
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.37)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.939801"
+    },
+    {
+      "trial_index": 9,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014548301696777344,
+      "robot_state": [
+        -0.15101833641529083,
+        2.232429027557373,
+        0.9127684235572815,
+        0.4788704514503479,
+        2.3094606399536133,
+        2.705972194671631,
+        0.7657032012939453,
+        0.4653027057647705,
+        0.5645009875297546,
+        -0.2513532042503357,
+        -1.1882774829864502,
+        -0.6229425668716431,
+        1.728545069694519,
+        0.02519204467535019,
+        -0.4326775372028351
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4033873557989481,
+            0.019072367268904378,
+            0.8940041333770415
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8774527991764588,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.942522"
+    },
+    {
+      "trial_index": 10,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0016129016876220703,
+      "robot_state": [
+        -2.8425352573394775,
+        -2.952366590499878,
+        3.0624661445617676,
+        -2.2820873260498047,
+        1.0005974769592285,
+        -2.3466684818267822,
+        0.3331734240055084,
+        0.06203946843743324,
+        0.979548454284668,
+        -0.09205181896686554,
+        1.000035047531128,
+        -1.8280733823776245,
+        1.7690876722335815,
+        0.38073253631591797,
+        -1.2712619304656982
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.41117720594522916,
+            0.18098930965508642,
+            0.7788623937549543
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8919401384384709,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.945188"
+    },
+    {
+      "trial_index": 11,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014543533325195312,
+      "robot_state": [
+        -0.20138275623321533,
+        3.10813307762146,
+        2.066084623336792,
+        -0.1460341364145279,
+        -1.7729274034500122,
+        1.5537877082824707,
+        0.10540224611759186,
+        0.26712772250175476,
+        0.5728377103805542,
+        1.7232831716537476,
+        0.0720241591334343,
+        1.9186749458312988,
+        -0.8226104378700256,
+        -1.3452787399291992,
+        0.32117876410484314
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5948654261791247,
+            0.024532288406184266,
+            0.8593698704794733
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8886193434274471,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.947694"
+    },
+    {
+      "trial_index": 12,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001447439193725586,
+      "robot_state": [
+        1.6589341163635254,
+        -0.13891439139842987,
+        2.3628339767456055,
+        -0.028575576841831207,
+        1.063612699508667,
+        -2.115086555480957,
+        0.9433338046073914,
+        0.14323286712169647,
+        0.9797608256340027,
+        -0.7131772637367249,
+        -1.2403233051300049,
+        -1.0877536535263062,
+        -0.5012341141700745,
+        -1.9248521327972412,
+        1.892905592918396
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.479663749539018,
+            -0.021520058669104336,
+            0.8690773200746644
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8828537607557116,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.950179"
+    },
+    {
+      "trial_index": 13,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014417171478271484,
+      "robot_state": [
+        -0.0836646780371666,
+        2.560875654220581,
+        3.0208077430725098,
+        -1.7607660293579102,
+        -2.529555320739746,
+        0.6516671776771545,
+        0.3922874331474304,
+        0.5350350737571716,
+        0.7431511878967285,
+        -0.434324711561203,
+        -0.1683499962091446,
+        -0.5675018429756165,
+        1.1255706548690796,
+        0.05432923138141632,
+        -1.5691577196121216
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4577663379038186,
+            0.08032514873735908,
+            0.8146722545171996
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8911851709163051,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.952670"
+    },
+    {
+      "trial_index": 14,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014662742614746094,
+      "robot_state": [
+        -2.895671844482422,
+        2.1782445907592773,
+        0.283005028963089,
+        2.94488263130188,
+        2.7835917472839355,
+        0.9041131138801575,
+        0.7737116813659668,
+        0.13605645298957825,
+        0.7357057929039001,
+        -1.3809359073638916,
+        0.03580545634031296,
+        0.8604615330696106,
+        -1.1287415027618408,
+        -1.2342054843902588,
+        -0.5008898377418518
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5523073253436548,
+            -0.05960277512509135,
+            0.8887116720268329
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.889937044221349,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.955166"
+    },
+    {
+      "trial_index": 15,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014383792877197266,
+      "robot_state": [
+        -0.5502864122390747,
+        1.0929813385009766,
+        -2.714799165725708,
+        -2.492408275604248,
+        1.0356347560882568,
+        0.723251461982727,
+        0.7650609612464905,
+        0.6100321412086487,
+        0.5343717336654663,
+        0.42572614550590515,
+        0.10751482844352722,
+        -1.3610509634017944,
+        0.48476648330688477,
+        -0.6109121441841125,
+        -0.5958458185195923
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.40179220048626874,
+            -0.2645318484192973,
+            0.862345515901318
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8842960840211205,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.957648"
+    },
+    {
+      "trial_index": 16,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014545917510986328,
+      "robot_state": [
+        1.4182403087615967,
+        -1.8275988101959229,
+        1.6015864610671997,
+        -1.9426640272140503,
+        -1.0971856117248535,
+        -0.47005757689476013,
+        0.6085267663002014,
+        0.6268463134765625,
+        0.5882280468940735,
+        -1.5831375122070312,
+        1.5376099348068237,
+        -1.709141492843628,
+        1.0411651134490967,
+        0.05675563961267471,
+        0.3917433023452759
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.960197"
+    },
+    {
+      "trial_index": 17,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014352798461914062,
+      "robot_state": [
+        0.4024518132209778,
+        0.05373725667595863,
+        -2.0740878582000732,
+        1.7897002696990967,
+        1.3069905042648315,
+        1.7877697944641113,
+        0.9551822543144226,
+        0.036389272660017014,
+        0.8651731014251709,
+        0.6255581378936768,
+        -0.36461105942726135,
+        -0.14160548150539398,
+        -0.08942268043756485,
+        -1.1923058032989502,
+        -1.9316608905792236
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.962700"
+    },
+    {
+      "trial_index": 18,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014443397521972656,
+      "robot_state": [
+        -0.2059112936258316,
+        2.929321527481079,
+        -1.8894739151000977,
+        -2.235063314437866,
+        2.9794459342956543,
+        1.0394597053527832,
+        0.9911366701126099,
+        0.18269245326519012,
+        0.9028123617172241,
+        -0.06654500216245651,
+        0.014023915864527225,
+        0.6670356392860413,
+        0.26137250661849976,
+        -1.5966440439224243,
+        -0.08336766064167023
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5539440465234812,
+            0.007474879756006192,
+            0.7629160620081055
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8798709031750955,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.965256"
+    },
+    {
+      "trial_index": 19,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014376640319824219,
+      "robot_state": [
+        -1.9268723726272583,
+        0.1923285275697708,
+        2.910684823989868,
+        3.1052050590515137,
+        1.7873718738555908,
+        0.2131025642156601,
+        0.4071060121059418,
+        0.6309213042259216,
+        0.8811407089233398,
+        1.3059502840042114,
+        -1.4296135902404785,
+        -1.3810731172561646,
+        -0.9049326181411743,
+        -0.23619399964809418,
+        -1.315861463546753
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5817096855886164,
+            0.047319795249926355,
+            0.8546873259173469
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8908997754610276,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.967732"
+    },
+    {
+      "trial_index": 20,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014488697052001953,
+      "robot_state": [
+        -0.00566765945404768,
+        -2.7975120544433594,
+        -0.39674511551856995,
+        -1.2243928909301758,
+        -1.791699767112732,
+        -1.8638441562652588,
+        0.11248879134654999,
+        0.4978298842906952,
+        0.05146483704447746,
+        0.07422421127557755,
+        -1.265865445137024,
+        -1.5400253534317017,
+        0.9723299145698547,
+        -0.28794625401496887,
+        1.919227123260498
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5309932600842222,
+            0.29257889388345687,
+            0.7486174133320549
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8976426341169261,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.970255"
+    },
+    {
+      "trial_index": 21,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014431476593017578,
+      "robot_state": [
+        -1.3315856456756592,
+        1.211133599281311,
+        0.4078172743320465,
+        -2.1821441650390625,
+        -2.1756067276000977,
+        -2.20664644241333,
+        0.8150991201400757,
+        0.41462892293930054,
+        0.06446802616119385,
+        1.896073818206787,
+        -0.23652763664722443,
+        -0.8133938908576965,
+        -0.8986378312110901,
+        -0.8228216171264648,
+        -0.7234483361244202
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.972845"
+    },
+    {
+      "trial_index": 22,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.001434326171875,
+      "robot_state": [
+        -2.934382677078247,
+        2.520251750946045,
+        1.3497000932693481,
+        1.6823561191558838,
+        0.8544937968254089,
+        1.1100925207138062,
+        0.9050679802894592,
+        0.7715873718261719,
+        0.5109716653823853,
+        -0.695030927658081,
+        1.837540864944458,
+        -1.7635700702667236,
+        -1.9403679370880127,
+        1.7382608652114868,
+        -0.7008867263793945
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.57)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.975325"
+    },
+    {
+      "trial_index": 23,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014498233795166016,
+      "robot_state": [
+        -1.7700976133346558,
+        -0.9554001092910767,
+        1.3702126741409302,
+        -2.6242706775665283,
+        -0.25149866938591003,
+        -2.9907119274139404,
+        0.7177491784095764,
+        0.34769731760025024,
+        0.9701595306396484,
+        0.28826984763145447,
+        -0.8323371410369873,
+        -0.5454772710800171,
+        1.06132972240448,
+        -1.102325201034546,
+        -0.8532623648643494
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4074781883501541,
+            -0.081869747165451,
+            0.8726417811857407
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8724103200113803,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.977854"
+    },
+    {
+      "trial_index": 24,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001428365707397461,
+      "robot_state": [
+        -2.299764394760132,
+        -0.19175493717193604,
+        -2.647170066833496,
+        0.17922960221767426,
+        -2.1633384227752686,
+        -0.9790621995925903,
+        0.3537127673625946,
+        0.4678898751735687,
+        0.4437290132045746,
+        -1.4044601917266846,
+        0.7853963375091553,
+        -1.6519263982772827,
+        -1.9641693830490112,
+        1.8732523918151855,
+        0.9923766255378723
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.40)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.980368"
+    },
+    {
+      "trial_index": 25,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014524459838867188,
+      "robot_state": [
+        1.8610049486160278,
+        -0.46025848388671875,
+        -0.09372005611658096,
+        2.9588510990142822,
+        -2.8931198120117188,
+        -1.5722894668579102,
+        0.36795490980148315,
+        0.20768529176712036,
+        0.7234479188919067,
+        1.4438385963439941,
+        -0.5525288581848145,
+        0.1371217966079712,
+        0.9099351167678833,
+        1.7218122482299805,
+        -1.224699854850769
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.43)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.982946"
+    },
+    {
+      "trial_index": 26,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014238357543945312,
+      "robot_state": [
+        -2.612912893295288,
+        2.241690158843994,
+        -3.085555076599121,
+        0.7713441848754883,
+        -3.0510807037353516,
+        0.4244961738586426,
+        0.8655961751937866,
+        0.8399760127067566,
+        0.4382985830307007,
+        -1.74005925655365,
+        0.046753741800785065,
+        0.03953206539154053,
+        0.4072043001651764,
+        -1.4602382183074951,
+        1.253891110420227
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.44943511276488723,
+            0.2828359990744537,
+            0.7386363389657282
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8790188664028635,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.985448"
+    },
+    {
+      "trial_index": 27,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014567375183105469,
+      "robot_state": [
+        1.9192031621932983,
+        1.0326873064041138,
+        0.4908214509487152,
+        -0.19312100112438202,
+        -0.8838675022125244,
+        1.0546311140060425,
+        0.6409754753112793,
+        0.3135738670825958,
+        0.9973872900009155,
+        -0.8955301642417908,
+        1.4732505083084106,
+        -1.416860818862915,
+        -0.34873905777931213,
+        1.4263486862182617,
+        -1.132527470588684
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.67)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.987940"
+    },
+    {
+      "trial_index": 28,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014445781707763672,
+      "robot_state": [
+        2.4898018836975098,
+        -2.3146655559539795,
+        0.07156398147344589,
+        0.8791701793670654,
+        0.6494792103767395,
+        0.20638661086559296,
+        0.6889674067497253,
+        0.5545938014984131,
+        0.5916990637779236,
+        0.6042762398719788,
+        0.8802796602249146,
+        -1.6906496286392212,
+        -1.2043215036392212,
+        1.038191318511963,
+        -0.17874404788017273
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.53)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.990440"
+    },
+    {
+      "trial_index": 29,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014438629150390625,
+      "robot_state": [
+        -2.3609726428985596,
+        -0.723222017288208,
+        -2.8312883377075195,
+        0.1768036186695099,
+        -0.5931157469749451,
+        -2.434471368789673,
+        0.43491873145103455,
+        0.294137179851532,
+        0.8269197344779968,
+        -0.5602959394454956,
+        0.2962493300437927,
+        -0.2784261703491211,
+        0.8151045441627502,
+        -0.9563049674034119,
+        0.04762697219848633
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4203967710336828,
+            0.10601158658812654,
+            0.889482919910862
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8768002323903179,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.992958"
+    },
+    {
+      "trial_index": 30,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014336109161376953,
+      "robot_state": [
+        2.3296422958374023,
+        0.1969972550868988,
+        -1.5574942827224731,
+        -3.0083229541778564,
+        0.08038057386875153,
+        1.7228953838348389,
+        0.778530478477478,
+        0.7882816195487976,
+        0.9215047955513,
+        -1.299630880355835,
+        0.5514405369758606,
+        0.21701228618621826,
+        1.8586238622665405,
+        -0.3226223289966583,
+        1.8326886892318726
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.572931589920433,
+            0.2566187965445699,
+            0.7078354161223771
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8861452624183312,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.995410"
+    },
+    {
+      "trial_index": 31,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014405250549316406,
+      "robot_state": [
+        -1.2350667715072632,
+        0.42513585090637207,
+        -0.5401703119277954,
+        0.5107586979866028,
+        1.6288551092147827,
+        1.5352282524108887,
+        0.953079104423523,
+        0.44707047939300537,
+        0.07232494652271271,
+        -0.18004605174064636,
+        -0.09384912252426147,
+        -1.83864426612854,
+        -0.6853970289230347,
+        0.24171851575374603,
+        1.7664992809295654
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:05.997887"
+    },
+    {
+      "trial_index": 32,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.001432657241821289,
+      "robot_state": [
+        0.3037559986114502,
+        -1.028579831123352,
+        -0.19167393445968628,
+        1.672576904296875,
+        -2.4239258766174316,
+        0.7707288265228271,
+        0.06862988322973251,
+        0.010654378682374954,
+        0.529360294342041,
+        -1.9816033840179443,
+        -0.04850655421614647,
+        1.6834700107574463,
+        0.8772092461585999,
+        1.85625159740448,
+        -0.05946032702922821
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.35)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.000384"
+    },
+    {
+      "trial_index": 33,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014379024505615234,
+      "robot_state": [
+        -0.6749442219734192,
+        2.8440802097320557,
+        -2.0897159576416016,
+        -0.9668631553649902,
+        1.842634916305542,
+        0.22247248888015747,
+        0.06714427471160889,
+        0.03432272747159004,
+        0.16752953827381134,
+        -1.7023776769638062,
+        1.4702128171920776,
+        -0.0500585213303566,
+        -1.6731911897659302,
+        -0.5306189060211182,
+        -0.7417687773704529
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4924893819473154,
+            -0.0012198184345879604,
+            0.8451252893921022
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.88727946376897,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.002890"
+    },
+    {
+      "trial_index": 34,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014171600341796875,
+      "robot_state": [
+        -1.9535936117172241,
+        -1.335938572883606,
+        -2.5085642337799072,
+        -1.1951663494110107,
+        -2.5961344242095947,
+        0.48779866099357605,
+        0.5373865365982056,
+        0.1906050592660904,
+        0.9388601779937744,
+        1.6919915676116943,
+        -1.872118353843689,
+        0.9918335676193237,
+        -1.779941201210022,
+        -0.061599671840667725,
+        -0.8509846329689026
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5241208988561454,
+            0.175762811799349,
+            0.8674478816397324
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8811370706828419,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.005379"
+    },
+    {
+      "trial_index": 35,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014595985412597656,
+      "robot_state": [
+        2.988722801208496,
+        -1.2462687492370605,
+        -0.011836586520075798,
+        -0.9330387711524963,
+        1.5027997493743896,
+        -1.1981040239334106,
+        0.10395673662424088,
+        0.908502995967865,
+        0.7383708357810974,
+        -1.3261810541152954,
+        0.840766191482544,
+        0.5028291344642639,
+        -0.9840602874755859,
+        -0.11799237132072449,
+        -0.7413726449012756
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4416638862214153,
+            -0.27917426081474983,
+            0.8712723674543873
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8759270203743834,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.007890"
+    },
+    {
+      "trial_index": 36,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001436471939086914,
+      "robot_state": [
+        -0.46847769618034363,
+        2.9558660984039307,
+        2.9723756313323975,
+        0.2461259663105011,
+        2.2785630226135254,
+        -0.5051041841506958,
+        0.01958443596959114,
+        0.4451243579387665,
+        0.5787503719329834,
+        -0.3974200189113617,
+        -1.92385733127594,
+        -1.2870088815689087,
+        -0.20758266746997833,
+        -1.3927644491195679,
+        1.8447908163070679
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5301175842990019,
+            -0.08652771535126128,
+            0.7713013672385087
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8745873823629715,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.010379"
+    },
+    {
+      "trial_index": 37,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014553070068359375,
+      "robot_state": [
+        2.2177958488464355,
+        1.6410696506500244,
+        -2.4666330814361572,
+        2.106827974319458,
+        1.4450544118881226,
+        0.216664120554924,
+        0.7361180186271667,
+        0.833919107913971,
+        0.9235849976539612,
+        -0.6446006894111633,
+        -1.7791320085525513,
+        -0.1984737068414688,
+        1.4609302282333374,
+        -0.5042147040367126,
+        -1.09773588180542
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.012888"
+    },
+    {
+      "trial_index": 38,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014331340789794922,
+      "robot_state": [
+        0.05489226058125496,
+        -3.0391597747802734,
+        -0.4499507248401642,
+        -1.4227542877197266,
+        2.9090583324432373,
+        0.5417234897613525,
+        0.3028995096683502,
+        0.9165926575660706,
+        0.4924389719963074,
+        -0.2551214396953583,
+        0.015367140993475914,
+        -0.4782211184501648,
+        -0.5862060189247131,
+        0.23550750315189362,
+        0.1614137440919876
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4135383913610493,
+            -0.18162940379448722,
+            0.7303847323036082
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8930748360791342,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.015365"
+    },
+    {
+      "trial_index": 39,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014562606811523438,
+      "robot_state": [
+        1.7280300855636597,
+        -0.5121657848358154,
+        2.963599443435669,
+        1.605241298675537,
+        1.7027462720870972,
+        0.9123870134353638,
+        0.6773857474327087,
+        0.08406557887792587,
+        0.43655911087989807,
+        1.7370134592056274,
+        -1.2521374225616455,
+        0.44775909185409546,
+        -1.537092924118042,
+        0.7396538853645325,
+        -1.8976094722747803
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.78)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.017869"
+    },
+    {
+      "trial_index": 40,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014407634735107422,
+      "robot_state": [
+        -0.2022719532251358,
+        -1.113525390625,
+        -1.2885174751281738,
+        -0.3961525559425354,
+        -1.175498366355896,
+        -2.5829787254333496,
+        0.4388979375362396,
+        0.6359719634056091,
+        0.9124975800514221,
+        -1.612001895904541,
+        -1.3463454246520996,
+        -1.6234240531921387,
+        1.658002495765686,
+        1.517509937286377,
+        -0.4800913631916046
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.73)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.020368"
+    },
+    {
+      "trial_index": 41,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014603137969970703,
+      "robot_state": [
+        1.6013915538787842,
+        2.1238462924957275,
+        -1.1296683549880981,
+        -1.5814460515975952,
+        -0.3157334327697754,
+        2.2764132022857666,
+        0.49986445903778076,
+        0.9264349937438965,
+        0.8500577211380005,
+        1.7856087684631348,
+        -0.18879854679107666,
+        -0.8479734063148499,
+        0.12473315000534058,
+        1.2745169401168823,
+        1.8972139358520508
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.59)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.022946"
+    },
+    {
+      "trial_index": 42,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014522075653076172,
+      "robot_state": [
+        2.71693754196167,
+        -1.3477537631988525,
+        2.2707889080047607,
+        -2.4310617446899414,
+        2.0931954383850098,
+        -2.922832489013672,
+        0.6796723008155823,
+        0.1832456886768341,
+        0.4382995367050171,
+        -1.3251545429229736,
+        0.09274478256702423,
+        -0.8170537352561951,
+        -1.6401700973510742,
+        0.005069521721452475,
+        -1.082250952720642
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5465889165889664,
+            0.04325549487122582,
+            0.8107420023780672
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8938368943399406,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.025443"
+    },
+    {
+      "trial_index": 43,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014643669128417969,
+      "robot_state": [
+        2.674409866333008,
+        2.413123607635498,
+        -2.7125885486602783,
+        -2.2380313873291016,
+        0.7641962766647339,
+        -1.3908659219741821,
+        0.7690988779067993,
+        0.4229065775871277,
+        0.35726726055145264,
+        1.53392493724823,
+        -0.7015791535377502,
+        0.2399240881204605,
+        0.8000573515892029,
+        1.0864555835723877,
+        0.7451472878456116
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.46)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.027987"
+    },
+    {
+      "trial_index": 44,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014362335205078125,
+      "robot_state": [
+        1.2563263177871704,
+        0.33611491322517395,
+        -2.8808979988098145,
+        2.7022128105163574,
+        -0.189186692237854,
+        -3.0225930213928223,
+        0.6956682801246643,
+        0.37992262840270996,
+        0.06817421317100525,
+        1.1010807752609253,
+        1.9886726140975952,
+        1.6018407344818115,
+        -1.8765355348587036,
+        -0.7231423854827881,
+        1.754572868347168
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5326089630562643,
+            0.28482615755942403,
+            0.8156703772193803
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8864957326710009,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.030477"
+    },
+    {
+      "trial_index": 45,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014495849609375,
+      "robot_state": [
+        0.4628481864929199,
+        2.4233827590942383,
+        2.173572540283203,
+        0.3307364583015442,
+        2.2558085918426514,
+        -0.8065201640129089,
+        0.5117670297622681,
+        0.18622855842113495,
+        0.5980983972549438,
+        -1.958968997001648,
+        -1.8167792558670044,
+        -0.7028118371963501,
+        0.42012345790863037,
+        0.17011544108390808,
+        -1.941009283065796
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.032985"
+    },
+    {
+      "trial_index": 46,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014309883117675781,
+      "robot_state": [
+        -0.20395150780677795,
+        -2.053103446960449,
+        1.1224981546401978,
+        0.7959581613540649,
+        -0.07519674301147461,
+        -2.969752311706543,
+        0.4338478446006775,
+        0.5142629146575928,
+        0.7776973247528076,
+        1.0534862279891968,
+        1.5115407705307007,
+        1.5461499691009521,
+        1.403977394104004,
+        1.9341791868209839,
+        1.9339179992675781
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.92)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.035473"
+    },
+    {
+      "trial_index": 47,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001451253890991211,
+      "robot_state": [
+        -2.2373955249786377,
+        1.5136406421661377,
+        2.955601215362549,
+        -0.9881306886672974,
+        3.1192102432250977,
+        -0.3240477442741394,
+        0.975540280342102,
+        0.49870923161506653,
+        0.16175614297389984,
+        1.9648183584213257,
+        1.213951587677002,
+        1.5640974044799805,
+        1.2191064357757568,
+        0.04071269929409027,
+        1.4151620864868164
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.517634912920161,
+            -0.08870478071118273,
+            0.7781691943170883
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8825672474653461,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.037971"
+    },
+    {
+      "trial_index": 48,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014336109161376953,
+      "robot_state": [
+        -2.791269540786743,
+        2.3506908416748047,
+        -2.86039137840271,
+        -2.9085841178894043,
+        1.7959702014923096,
+        1.1411134004592896,
+        0.3232811689376831,
+        0.4193708598613739,
+        0.7801978588104248,
+        -1.563339352607727,
+        -1.982451319694519,
+        0.7945157289505005,
+        -1.8673385381698608,
+        -0.22607365250587463,
+        0.46928152441978455
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4285213337605096,
+            -0.10462977700766199,
+            0.8179917440265074
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8770703979022081,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.040442"
+    },
+    {
+      "trial_index": 49,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014464855194091797,
+      "robot_state": [
+        2.0936484336853027,
+        1.7897316217422485,
+        2.277492046356201,
+        -1.5695860385894775,
+        0.6240258812904358,
+        -0.5401782393455505,
+        0.1555752158164978,
+        0.7743597626686096,
+        0.39200276136398315,
+        -1.4799954891204834,
+        0.7940114140510559,
+        -0.1539863497018814,
+        1.7649080753326416,
+        -0.5651049017906189,
+        -1.2280020713806152
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.042944"
+    },
+    {
+      "trial_index": 50,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014407634735107422,
+      "robot_state": [
+        -2.5805678367614746,
+        -3.1124444007873535,
+        -1.917777419090271,
+        1.4570640325546265,
+        1.0112627744674683,
+        -2.0773112773895264,
+        0.44238176941871643,
+        0.2402297556400299,
+        0.8477708697319031,
+        0.021224012598395348,
+        1.5736318826675415,
+        -1.9640369415283203,
+        -1.9727450609207153,
+        0.7138357162475586,
+        1.8960682153701782
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.41)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.045495"
+    },
+    {
+      "trial_index": 51,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014574527740478516,
+      "robot_state": [
+        -1.072348952293396,
+        2.983957529067993,
+        -1.0976265668869019,
+        2.940380811691284,
+        2.0706639289855957,
+        -1.3121010065078735,
+        0.7733864784240723,
+        0.9858424663543701,
+        0.9627038836479187,
+        0.6441774964332581,
+        -0.7760523557662964,
+        -1.7482728958129883,
+        -1.613018274307251,
+        1.09103262424469,
+        1.5234555006027222
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.55)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.047994"
+    },
+    {
+      "trial_index": 52,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014379024505615234,
+      "robot_state": [
+        -1.678444504737854,
+        2.1466047763824463,
+        1.4919579029083252,
+        -0.8087178468704224,
+        0.655350923538208,
+        3.1072726249694824,
+        0.5050447583198547,
+        0.0913035199046135,
+        0.1624542623758316,
+        -0.681829035282135,
+        -1.4970301389694214,
+        -0.3645297884941101,
+        1.2735451459884644,
+        1.603723406791687,
+        -1.5497561693191528
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.69)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.050464"
+    },
+    {
+      "trial_index": 53,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014452934265136719,
+      "robot_state": [
+        0.010295508429408073,
+        2.524064779281616,
+        -0.597271203994751,
+        1.9958561658859253,
+        1.6210508346557617,
+        0.16015759110450745,
+        0.6460397839546204,
+        0.5697927474975586,
+        0.7121849656105042,
+        -0.3518224358558655,
+        0.006155610550194979,
+        -0.4706736207008362,
+        -0.487893283367157,
+        -0.2702585756778717,
+        0.6361701488494873
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5715498553868931,
+            0.2125683092137542,
+            0.8367963382369725
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8709542109830478,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.052945"
+    },
+    {
+      "trial_index": 54,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014383792877197266,
+      "robot_state": [
+        1.6935664415359497,
+        1.2151609659194946,
+        2.4392457008361816,
+        -1.9045841693878174,
+        0.9799424409866333,
+        1.8557066917419434,
+        0.9012128710746765,
+        0.33081957697868347,
+        0.6658679246902466,
+        -0.546955943107605,
+        -0.13771674036979675,
+        1.6315176486968994,
+        -0.7469438314437866,
+        -1.9036905765533447,
+        -1.00729238986969
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.055448"
+    },
+    {
+      "trial_index": 55,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014531612396240234,
+      "robot_state": [
+        -1.0481525659561157,
+        -0.33360108733177185,
+        -0.9407285451889038,
+        -0.7146883606910706,
+        -3.017768383026123,
+        -2.123704671859741,
+        0.5030406713485718,
+        0.3816277086734772,
+        0.9447359442710876,
+        -0.722891092300415,
+        0.781539797782898,
+        -0.8403597474098206,
+        0.7682112455368042,
+        0.9063171744346619,
+        -1.77415132522583
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.69)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.057964"
+    },
+    {
+      "trial_index": 56,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014324188232421875,
+      "robot_state": [
+        -0.28237205743789673,
+        -0.5748871564865112,
+        -1.9473658800125122,
+        -2.422759771347046,
+        -2.7902157306671143,
+        2.245950937271118,
+        0.17195694148540497,
+        0.5357328057289124,
+        0.6659997701644897,
+        -0.9602915048599243,
+        0.48945915699005127,
+        -0.768523097038269,
+        -1.4362149238586426,
+        -1.9923734664916992,
+        -1.7170186042785645
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.589881032616079,
+            -0.26225582971215583,
+            0.7955167172600048
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.887572900034385,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.060414"
+    },
+    {
+      "trial_index": 57,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014438629150390625,
+      "robot_state": [
+        2.062762975692749,
+        -2.023029327392578,
+        -0.4020910859107971,
+        1.5106017589569092,
+        -1.8442641496658325,
+        -2.7865664958953857,
+        0.9048058390617371,
+        0.9393254518508911,
+        0.8707842826843262,
+        -1.3259685039520264,
+        -1.204328179359436,
+        -1.6589528322219849,
+        -1.9325577020645142,
+        0.5000295639038086,
+        0.7564488053321838
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.70)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.062880"
+    },
+    {
+      "trial_index": 58,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014388561248779297,
+      "robot_state": [
+        0.023105155676603317,
+        -0.39250698685646057,
+        -2.9914822578430176,
+        1.6669410467147827,
+        -0.719238817691803,
+        1.963278889656067,
+        0.14591000974178314,
+        0.050848737359046936,
+        0.6551851630210876,
+        1.8208633661270142,
+        1.5272817611694336,
+        -0.7201557159423828,
+        -1.6037285327911377,
+        -1.7171381711959839,
+        1.5446935892105103
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5642638737583188,
+            0.06865951164613388,
+            0.7974253987340704
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8987310582372479,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.065348"
+    },
+    {
+      "trial_index": 59,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014500617980957031,
+      "robot_state": [
+        -0.2502169609069824,
+        2.8122260570526123,
+        2.5901424884796143,
+        -1.677267074584961,
+        2.0101425647735596,
+        -1.2630070447921753,
+        0.37372633814811707,
+        0.7391881942749023,
+        0.39806100726127625,
+        0.04156533628702164,
+        -0.1932477504014969,
+        -1.2861964702606201,
+        0.2120479792356491,
+        -1.4141048192977905,
+        -1.4492768049240112
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5391287709929453,
+            0.14900087812034662,
+            0.8588676212275834
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8959002000675934,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.067832"
+    },
+    {
+      "trial_index": 60,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014307498931884766,
+      "robot_state": [
+        2.009962320327759,
+        -0.8190662860870361,
+        1.867214560508728,
+        0.18659619987010956,
+        -1.0999643802642822,
+        2.925487756729126,
+        0.7928030490875244,
+        0.5836605429649353,
+        0.4285421371459961,
+        -1.5446439981460571,
+        0.4576755464076996,
+        0.02587444707751274,
+        0.744234561920166,
+        0.7265648245811462,
+        -1.02130925655365
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.22)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.070363"
+    },
+    {
+      "trial_index": 61,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014586448669433594,
+      "robot_state": [
+        -0.544127881526947,
+        2.2756357192993164,
+        -1.6321204900741577,
+        -2.6944146156311035,
+        2.6371333599090576,
+        1.1845016479492188,
+        0.42944130301475525,
+        0.33926647901535034,
+        0.6435768604278564,
+        -0.019699282944202423,
+        -1.8270149230957031,
+        -1.4577723741531372,
+        -1.844852089881897,
+        -1.283072829246521,
+        -1.6233536005020142
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.44699131589702995,
+            0.09431212886236412,
+            0.7619556540168613
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8853716891740794,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.072956"
+    },
+    {
+      "trial_index": 62,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014338493347167969,
+      "robot_state": [
+        0.3529359698295593,
+        1.5293155908584595,
+        1.2641479969024658,
+        -2.8338465690612793,
+        -1.8037095069885254,
+        -0.9579960703849792,
+        0.2424258291721344,
+        0.11295890808105469,
+        0.4780370593070984,
+        0.42610129714012146,
+        -1.6990923881530762,
+        0.6453571319580078,
+        -0.6093118190765381,
+        -1.6147964000701904,
+        -1.709482192993164
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4780923554671374,
+            0.2666951991890047,
+            0.7670534545921821
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8773272729170182,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.075425"
+    },
+    {
+      "trial_index": 63,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014395713806152344,
+      "robot_state": [
+        -0.4544869661331177,
+        1.3643627166748047,
+        1.4453221559524536,
+        -2.8884952068328857,
+        1.1412745714187622,
+        0.2039957195520401,
+        0.7006450891494751,
+        0.13027402758598328,
+        0.11527024954557419,
+        -1.3520981073379517,
+        -0.3079332411289215,
+        0.6418319940567017,
+        1.2283732891082764,
+        0.39286231994628906,
+        0.9189214706420898
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.45149652993406275,
+            -0.2282982669810854,
+            0.869886504478923
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8768854191117343,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.077929"
+    },
+    {
+      "trial_index": 64,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014405250549316406,
+      "robot_state": [
+        -0.021600335836410522,
+        0.9472414255142212,
+        -2.6991121768951416,
+        -2.546046018600464,
+        -1.8827793598175049,
+        -1.020652413368225,
+        0.5499707460403442,
+        0.7804554104804993,
+        0.9570243954658508,
+        -0.14544473588466644,
+        0.44583654403686523,
+        -1.0729339122772217,
+        -0.9168186187744141,
+        -1.5348129272460938,
+        -1.3719075918197632
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5256797906424111,
+            0.2876226283582995,
+            0.785386594759875
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8722907205296533,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.080446"
+    },
+    {
+      "trial_index": 65,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014519691467285156,
+      "robot_state": [
+        -0.9962701201438904,
+        -0.23590311408042908,
+        1.3415464162826538,
+        -0.5820325613021851,
+        -1.221812129020691,
+        1.5269910097122192,
+        0.1877698004245758,
+        0.3611850440502167,
+        0.9181910157203674,
+        0.48513033986091614,
+        -1.1169285774230957,
+        -0.10262693464756012,
+        -1.196931004524231,
+        -0.22216135263442993,
+        -1.0998594760894775
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.082979"
+    },
+    {
+      "trial_index": 66,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.001451253890991211,
+      "robot_state": [
+        2.0872626304626465,
+        2.878889322280884,
+        0.32607054710388184,
+        -0.7564167976379395,
+        2.9822630882263184,
+        -2.7528538703918457,
+        0.4196784496307373,
+        0.8045520782470703,
+        0.40348711609840393,
+        1.2759621143341064,
+        -0.7839389443397522,
+        -1.5714408159255981,
+        -1.1875090599060059,
+        -1.556983470916748,
+        -1.9631344079971313
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.43975907513837076,
+            -0.062241217288329265,
+            0.7812118358109634
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8898576669526246,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.085458"
+    },
+    {
+      "trial_index": 67,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014629364013671875,
+      "robot_state": [
+        -1.3845210075378418,
+        -1.823673129081726,
+        -2.1503608226776123,
+        1.187045931816101,
+        1.435713768005371,
+        2.1854875087738037,
+        0.0371633917093277,
+        0.05022202432155609,
+        0.8546333312988281,
+        -0.13438552618026733,
+        0.536270260810852,
+        1.9409600496292114,
+        -0.4951389729976654,
+        1.3796608448028564,
+        0.1609336882829666
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.78)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.087960"
+    },
+    {
+      "trial_index": 68,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014231204986572266,
+      "robot_state": [
+        -0.666012704372406,
+        -1.8578754663467407,
+        0.5003091096878052,
+        -3.082113027572632,
+        0.2822436988353729,
+        -1.4570459127426147,
+        0.8962786197662354,
+        0.662381649017334,
+        0.9850077629089355,
+        -0.04933696985244751,
+        0.18517249822616577,
+        -0.6543502807617188,
+        0.3977949321269989,
+        -1.8986982107162476,
+        0.5269627571105957
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.44021358768706664,
+            -0.2831627997449784,
+            0.7055180329549382
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8869074191013391,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.090405"
+    },
+    {
+      "trial_index": 69,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014576911926269531,
+      "robot_state": [
+        1.35194993019104,
+        -1.1445791721343994,
+        -0.9101314544677734,
+        -0.4865693151950836,
+        1.684250831604004,
+        -2.4314124584198,
+        0.6636029481887817,
+        0.9160762429237366,
+        0.7352210283279419,
+        -0.8211675882339478,
+        -1.4454320669174194,
+        -1.6443778276443481,
+        -0.3959212303161621,
+        -0.10127639025449753,
+        0.9946541786193848
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.092908"
+    },
+    {
+      "trial_index": 70,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014357566833496094,
+      "robot_state": [
+        3.0944466590881348,
+        2.6524200439453125,
+        0.5675508379936218,
+        2.411834239959717,
+        -1.7713727951049805,
+        -1.706255555152893,
+        0.9816550612449646,
+        0.19584187865257263,
+        0.4736056625843048,
+        1.474090814590454,
+        0.38536641001701355,
+        0.46360766887664795,
+        1.0978037118911743,
+        -1.8545987606048584,
+        -0.44368597865104675
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5571097275020914,
+            -0.22244105848203838,
+            0.8740422237918679
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8733022470241769,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.095384"
+    },
+    {
+      "trial_index": 71,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014615058898925781,
+      "robot_state": [
+        0.21033400297164917,
+        0.5531598925590515,
+        -2.294699192047119,
+        -2.6457457542419434,
+        -2.8500187397003174,
+        -2.919214963912964,
+        0.2592707574367523,
+        0.6084610223770142,
+        0.7103749513626099,
+        1.9753392934799194,
+        -1.2924323081970215,
+        0.8848792910575867,
+        -0.5894449949264526,
+        -1.065073847770691,
+        -1.9952278137207031
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5895606252152467,
+            -0.04876094513396423,
+            0.724885035956798
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8957340719227195,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.097891"
+    },
+    {
+      "trial_index": 72,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014579296112060547,
+      "robot_state": [
+        -1.906059741973877,
+        -0.6296724081039429,
+        -1.6215567588806152,
+        0.439970999956131,
+        -1.7330557107925415,
+        1.3202691078186035,
+        0.15303200483322144,
+        0.027386173605918884,
+        0.9969615340232849,
+        0.09140592068433762,
+        0.23989596962928772,
+        1.4641039371490479,
+        1.19287109375,
+        1.4327764511108398,
+        0.6398388147354126
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.62)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.100420"
+    },
+    {
+      "trial_index": 73,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014488697052001953,
+      "robot_state": [
+        -0.7368754148483276,
+        -1.7682148218154907,
+        -2.471287250518799,
+        0.0715966746211052,
+        -2.287224054336548,
+        1.3668599128723145,
+        0.17275425791740417,
+        0.6184104084968567,
+        0.665580153465271,
+        0.44404441118240356,
+        0.20256176590919495,
+        -1.4531512260437012,
+        1.6288533210754395,
+        -1.3565113544464111,
+        -0.7326237559318542
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.102974"
+    },
+    {
+      "trial_index": 74,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001435995101928711,
+      "robot_state": [
+        0.11755340546369553,
+        1.6436892747879028,
+        -0.22215217351913452,
+        2.785994291305542,
+        -0.3844868540763855,
+        -0.18511663377285004,
+        0.5303249359130859,
+        0.4355655908584595,
+        0.11073686182498932,
+        0.17978927493095398,
+        1.892756462097168,
+        0.3039507269859314,
+        -0.8509321212768555,
+        1.4583624601364136,
+        -0.34999799728393555
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.78)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.105485"
+    },
+    {
+      "trial_index": 75,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014538764953613281,
+      "robot_state": [
+        1.6412312984466553,
+        -1.821810245513916,
+        0.6457564830780029,
+        -0.4772073030471802,
+        -1.2977526187896729,
+        -2.4832217693328857,
+        0.37337255477905273,
+        0.6677088141441345,
+        0.4543055295944214,
+        1.2742995023727417,
+        -0.7439336776733398,
+        0.9140822291374207,
+        1.041029930114746,
+        1.473878026008606,
+        1.265418291091919
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.52)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.108070"
+    },
+    {
+      "trial_index": 76,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014231204986572266,
+      "robot_state": [
+        2.89603853225708,
+        -3.0230937004089355,
+        0.6857326030731201,
+        -1.3567686080932617,
+        -0.41108351945877075,
+        -0.211482971906662,
+        0.7477681636810303,
+        0.9789373278617859,
+        0.5194103717803955,
+        0.4247162342071533,
+        0.06721309572458267,
+        1.9326947927474976,
+        -0.7295346260070801,
+        1.3083845376968384,
+        1.8556815385818481
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.30)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.110566"
+    },
+    {
+      "trial_index": 77,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014586448669433594,
+      "robot_state": [
+        0.8160985708236694,
+        -2.1467294692993164,
+        2.3517038822174072,
+        0.3151819407939911,
+        3.119070053100586,
+        -1.6542173624038696,
+        0.963356077671051,
+        0.897901713848114,
+        0.33777812123298645,
+        0.26823195815086365,
+        -0.17051783204078674,
+        0.8209726810455322,
+        -0.4275244176387787,
+        -0.5545402765274048,
+        -0.3540927767753601
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5343274317064786,
+            -0.000360012439357571,
+            0.7569871168289692
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8791734343879182,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.113116"
+    },
+    {
+      "trial_index": 78,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014469623565673828,
+      "robot_state": [
+        1.6968913078308105,
+        -1.1435610055923462,
+        -1.5657153129577637,
+        -0.0298061054199934,
+        0.5208108425140381,
+        -0.5981892347335815,
+        0.8995589017868042,
+        0.7861150503158569,
+        0.564187228679657,
+        0.24088773131370544,
+        -0.6500620245933533,
+        -0.8673442602157593,
+        -0.06965437531471252,
+        0.5784870386123657,
+        -1.031295657157898
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.58)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.115618"
+    },
+    {
+      "trial_index": 79,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014431476593017578,
+      "robot_state": [
+        -1.3509342670440674,
+        1.9191185235977173,
+        -0.9440001249313354,
+        -1.715566873550415,
+        -2.7720284461975098,
+        1.2861590385437012,
+        0.5639092922210693,
+        0.6282581090927124,
+        0.4646435081958771,
+        1.1004152297973633,
+        -0.06596755981445312,
+        -1.993993878364563,
+        1.8325231075286865,
+        -0.6441275477409363,
+        1.945499062538147
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5430742049360255,
+            -0.04160537473337744,
+            0.766968615617932
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8929634490969122,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.118143"
+    },
+    {
+      "trial_index": 80,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.001432657241821289,
+      "robot_state": [
+        -1.0905818939208984,
+        -1.3188751935958862,
+        -0.7671627998352051,
+        -2.8372724056243896,
+        -0.5248859524726868,
+        1.2798010110855103,
+        0.5690063834190369,
+        0.3859075903892517,
+        0.7439695596694946,
+        -0.4299167990684509,
+        -0.15412332117557526,
+        1.2186014652252197,
+        1.4724866151809692,
+        1.3425955772399902,
+        -0.9773348569869995
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.30)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.120645"
+    },
+    {
+      "trial_index": 81,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001466989517211914,
+      "robot_state": [
+        0.9765561819076538,
+        1.9249104261398315,
+        -1.8830517530441284,
+        -0.8686273694038391,
+        0.9568257927894592,
+        1.776590347290039,
+        0.9342456459999084,
+        0.3740195035934448,
+        0.054994624108076096,
+        0.8242615461349487,
+        -0.9126161932945251,
+        0.8256103992462158,
+        0.2294575721025467,
+        -0.8823903203010559,
+        1.4231839179992676
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.123233"
+    },
+    {
+      "trial_index": 82,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014386177062988281,
+      "robot_state": [
+        -0.08882301300764084,
+        2.4178659915924072,
+        -2.425187349319458,
+        -0.2546251714229584,
+        -2.080744504928589,
+        -1.9137943983078003,
+        0.2731957733631134,
+        0.6280872225761414,
+        0.2402014583349228,
+        1.6394184827804565,
+        0.8447803258895874,
+        1.8144608736038208,
+        -1.217240571975708,
+        1.8034645318984985,
+        -0.4852483570575714
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.56)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.125729"
+    },
+    {
+      "trial_index": 83,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014598369598388672,
+      "robot_state": [
+        2.2843832969665527,
+        1.4216521978378296,
+        2.441298723220825,
+        -1.9314509630203247,
+        0.2827509939670563,
+        2.060487985610962,
+        0.7285546660423279,
+        0.05680641159415245,
+        0.1559724658727646,
+        0.7616034150123596,
+        -0.8314526081085205,
+        1.3002631664276123,
+        0.43250158429145813,
+        -0.6028998494148254,
+        -0.8193254470825195
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.128216"
+    },
+    {
+      "trial_index": 84,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014374256134033203,
+      "robot_state": [
+        -2.3110477924346924,
+        -1.6633051633834839,
+        -0.8474703431129456,
+        -2.033289670944214,
+        -2.4914133548736572,
+        -2.486006498336792,
+        0.6214544773101807,
+        0.02770378813147545,
+        0.8279881477355957,
+        1.7171415090560913,
+        1.9490638971328735,
+        0.2100478857755661,
+        -1.771471619606018,
+        0.13337412476539612,
+        -1.2912352085113525
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.130736"
+    },
+    {
+      "trial_index": 85,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.001453399658203125,
+      "robot_state": [
+        2.032010793685913,
+        -0.41815468668937683,
+        2.7551236152648926,
+        -3.1252458095550537,
+        1.8772705793380737,
+        0.24753813445568085,
+        0.2695041596889496,
+        0.4678197205066681,
+        0.7493870258331299,
+        1.487462043762207,
+        1.7918567657470703,
+        -1.4052441120147705,
+        1.381173014640808,
+        -0.9674822092056274,
+        -0.10454114526510239
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5643697043998752,
+            -0.2681200476567734,
+            0.7190408520227706
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8934944263740308,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.133219"
+    },
+    {
+      "trial_index": 86,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001430511474609375,
+      "robot_state": [
+        1.9153112173080444,
+        1.9190728664398193,
+        0.012892243452370167,
+        -0.7144614458084106,
+        -0.5721566677093506,
+        1.9944006204605103,
+        0.7440289855003357,
+        0.7772794961929321,
+        0.1300542801618576,
+        0.49945536255836487,
+        -1.0912683010101318,
+        0.16338388621807098,
+        -1.0207104682922363,
+        0.3711203336715698,
+        0.46983107924461365
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.135703"
+    },
+    {
+      "trial_index": 87,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001458883285522461,
+      "robot_state": [
+        0.10630077123641968,
+        0.5687299966812134,
+        0.33412787318229675,
+        -2.896233320236206,
+        1.481107234954834,
+        -2.6980550289154053,
+        0.26574286818504333,
+        0.7021477818489075,
+        0.9781661629676819,
+        0.6698885560035706,
+        0.4551028907299042,
+        0.29425185918807983,
+        -1.0632606744766235,
+        0.37817272543907166,
+        -0.7258886098861694
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.40977031183884427,
+            -0.08527986871372109,
+            0.8096070522318417
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8929143736307509,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.138222"
+    },
+    {
+      "trial_index": 88,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014295578002929688,
+      "robot_state": [
+        -1.038661241531372,
+        -1.8969452381134033,
+        0.8953790664672852,
+        -1.6176228523254395,
+        0.6931079626083374,
+        -1.9730767011642456,
+        0.7067951560020447,
+        0.8986647129058838,
+        0.11622677743434906,
+        -1.8889373540878296,
+        1.9068013429641724,
+        -1.4001505374908447,
+        1.8414746522903442,
+        -1.621096134185791,
+        1.9361746311187744
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.140702"
+    },
+    {
+      "trial_index": 89,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.001447439193725586,
+      "robot_state": [
+        2.5553841590881348,
+        -2.810059070587158,
+        0.19407176971435547,
+        1.6041011810302734,
+        1.6489146947860718,
+        -2.037282943725586,
+        0.017661556601524353,
+        0.21533404290676117,
+        0.6955492496490479,
+        1.7677937746047974,
+        0.19764205813407898,
+        -0.41684597730636597,
+        1.014776587486267,
+        -1.1077371835708618,
+        1.2271521091461182
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.4701751828678885,
+            0.10459913388483916,
+            0.7702359942707506
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.871943993384006,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.143233"
+    },
+    {
+      "trial_index": 90,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014503002166748047,
+      "robot_state": [
+        2.0031070709228516,
+        0.4212466776371002,
+        -1.4284380674362183,
+        -1.89474356174469,
+        -1.070675015449524,
+        1.900134563446045,
+        0.6283088326454163,
+        0.6350357532501221,
+        0.5163173079490662,
+        0.40845948457717896,
+        0.603782057762146,
+        -1.4187371730804443,
+        -1.8340356349945068,
+        0.9188103079795837,
+        1.5092700719833374
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.45)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.145736"
+    },
+    {
+      "trial_index": 91,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014634132385253906,
+      "robot_state": [
+        1.0099337100982666,
+        1.5387134552001953,
+        -1.4523550271987915,
+        -1.4625115394592285,
+        0.2353861778974533,
+        2.2492337226867676,
+        0.9721218943595886,
+        0.7015970945358276,
+        0.511629045009613,
+        -1.291185736656189,
+        0.28986966609954834,
+        -1.6986174583435059,
+        -1.219306230545044,
+        -1.7540614604949951,
+        -1.3083857297897339
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.148253"
+    },
+    {
+      "trial_index": 92,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014417171478271484,
+      "robot_state": [
+        -0.31451302766799927,
+        2.2017955780029297,
+        -2.0775105953216553,
+        -2.0334951877593994,
+        -2.507314682006836,
+        -1.48790442943573,
+        0.12134779989719391,
+        0.06890245527029037,
+        0.7804271578788757,
+        1.298824429512024,
+        0.4723445773124695,
+        -0.383034348487854,
+        -1.213512897491455,
+        0.9022433757781982,
+        -0.2103186398744583
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.48)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.150733"
+    },
+    {
+      "trial_index": 93,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014455318450927734,
+      "robot_state": [
+        1.9974509477615356,
+        2.1633801460266113,
+        -0.5946669578552246,
+        -2.2766482830047607,
+        -1.4755910634994507,
+        1.2852095365524292,
+        0.4801749885082245,
+        0.4969998896121979,
+        0.266056627035141,
+        -0.748796820640564,
+        -1.0145306587219238,
+        -0.23202919960021973,
+        0.6108197569847107,
+        -0.8835734724998474,
+        1.7738996744155884
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.153246"
+    },
+    {
+      "trial_index": 94,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014431476593017578,
+      "robot_state": [
+        -1.4287352561950684,
+        -1.8158921003341675,
+        -1.3511786460876465,
+        -2.755228281021118,
+        -0.8572742342948914,
+        -2.604973793029785,
+        0.26673516631126404,
+        0.3285176455974579,
+        0.15171298384666443,
+        0.2676481604576111,
+        -0.959699273109436,
+        0.61484295129776,
+        -0.23608466982841492,
+        -0.4642522931098938,
+        0.5799550414085388
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.547650102895446,
+            -0.14997818026071347,
+            0.7972995335839898
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8882286148452058,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.155776"
+    },
+    {
+      "trial_index": 95,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014379024505615234,
+      "robot_state": [
+        -2.189499616622925,
+        -1.3080600500106812,
+        1.340710163116455,
+        -2.3573665618896484,
+        -2.974435329437256,
+        2.377199411392212,
+        0.5507842898368835,
+        0.7131062150001526,
+        0.17024961113929749,
+        1.8378441333770752,
+        1.856128454208374,
+        0.4214402139186859,
+        0.1322862058877945,
+        1.7485408782958984,
+        -0.7467239499092102
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            0.0,
+            0.2,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.46)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.158297"
+    },
+    {
+      "trial_index": 96,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014619827270507812,
+      "robot_state": [
+        -1.4986844062805176,
+        -2.8623130321502686,
+        1.1658945083618164,
+        -2.757524251937866,
+        -2.313511848449707,
+        0.6546024084091187,
+        0.4177425801753998,
+        0.6520639657974243,
+        0.21499504148960114,
+        1.6720576286315918,
+        -1.6446411609649658,
+        -1.862962007522583,
+        1.2863168716430664,
+        -0.18061764538288116,
+        0.7901422381401062
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5800883264993666,
+            -0.020639596244631242,
+            0.7391102497989006
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.873296600245483,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.160781"
+    },
+    {
+      "trial_index": 97,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014281272888183594,
+      "robot_state": [
+        -0.66444331407547,
+        -0.021143605932593346,
+        -0.4849254786968231,
+        -0.8860554695129395,
+        -1.0372393131256104,
+        -2.037400007247925,
+        0.6754878163337708,
+        0.7181433439254761,
+        0.6635459065437317,
+        -1.7915349006652832,
+        -0.09941212087869644,
+        1.627160906791687,
+        -0.7044104933738708,
+        -1.7469412088394165,
+        0.7075788974761963
+      ],
+      "niva_action": {
+        "action_type": "grasp",
+        "parameters": {
+          "force_limit": 60.0
+        },
+        "confidence": 0.55,
+        "reasoning": "Executing grasp with force 60.0N (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": false,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": false
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.163286"
+    },
+    {
+      "trial_index": 98,
+      "complexity_level": 5,
+      "success": true,
+      "completion_time": 0.0014350414276123047,
+      "robot_state": [
+        -0.8140116930007935,
+        -1.5285775661468506,
+        -1.6578301191329956,
+        -0.22502394020557404,
+        -2.859898328781128,
+        -0.19423246383666992,
+        0.6806345582008362,
+        0.3857310712337494,
+        0.9597414135932922,
+        1.8568596839904785,
+        -0.5101680159568787,
+        -0.3296082317829132,
+        -0.21454542875289917,
+        -1.688765525817871,
+        -1.2273900508880615
+      ],
+      "niva_action": {
+        "action_type": "move_to_pose",
+        "parameters": {
+          "position": [
+            0.5942716566573304,
+            0.23501697035015484,
+            0.8356242716569303
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.8953702007564589,
+        "reasoning": "Approaching target based on visual analysis (complexity 5)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": true,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.165796"
+    },
+    {
+      "trial_index": 99,
+      "complexity_level": 5,
+      "success": false,
+      "completion_time": 0.0014319419860839844,
+      "robot_state": [
+        -0.551819920539856,
+        -2.664724349975586,
+        0.9133940935134888,
+        -2.4601175785064697,
+        1.8929392099380493,
+        1.1957993507385254,
+        0.5750281810760498,
+        0.4062298834323883,
+        0.9343104362487793,
+        0.6683989763259888,
+        -0.6518909335136414,
+        0.7427570223808289,
+        0.7807123064994812,
+        0.943886935710907,
+        -1.8495758771896362
+      ],
+      "niva_action": {
+        "action_type": "place_object",
+        "parameters": {
+          "position": [
+            -0.2,
+            0.4,
+            0.8
+          ],
+          "orientation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        "confidence": 0.7,
+        "reasoning": "Placing object in optimal location (workspace util: 0.54)",
+        "physics_valid": true
+      },
+      "action_quality": {
+        "confidence_adequate": true,
+        "physics_valid": true,
+        "action_appropriate": true,
+        "parameters_valid": true,
+        "reasoning_quality": true,
+        "context_aware": false,
+        "overall_quality": true
+      },
+      "expected_success_rate": 0.38,
+      "platform": "NIVA_Zero_Shot_Foundation_Model",
+      "foundation_model_features": {
+        "universal_sensor_fusion": true,
+        "physics_validation_engine": true,
+        "world_model_prediction": true,
+        "multi_modal_reasoning": true
+      },
+      "timestamp": "2025-09-03T03:23:06.168238"
+    }
+  ]
+}

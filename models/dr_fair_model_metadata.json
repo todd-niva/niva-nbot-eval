@@ -1,0 +1,24 @@
+{
+  "training_type": "DR_fair_robot_state_only",
+  "base_methodology": "robot_state_only_berkeley_training",
+  "domain_randomization": {
+    "noise_std_range": [
+      0.01,
+      0.1
+    ],
+    "action_scale_range": [
+      0.8,
+      1.2
+    ],
+    "physics_variation_range": [
+      0.9,
+      1.1
+    ],
+    "augmentation_factor": 5
+  },
+  "samples_generated": 25,
+  "model_architecture_hash": 4290693813273122544,
+  "training_completed": "20250902_232424",
+  "fair_comparison_verified": true,
+  "baseline_compatibility": "SimpleRobotStatePolicy_identical"
+}

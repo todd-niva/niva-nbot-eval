@@ -1,0 +1,14 @@
+{
+  "epochs": [
+    1
+  ],
+  "losses": [
+    0.0
+  ],
+  "times": [
+    0.379382848739624
+  ],
+  "model_hash": "25424174",
+  "best_loss": 0.0,
+  "total_samples": 2500
+}
